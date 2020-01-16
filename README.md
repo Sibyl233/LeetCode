@@ -8,13 +8,13 @@
 | 0004 | [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | python | 困难 |      |
 | 0005 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | python | 中等 |      |
 | 0006 | [Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | python | 中等 |      |
-| 0007 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [python](https://github.com/Sibyl233/LeetCode/tree/master/src/0007) | 简单 |      |
+| 0007 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/0007/0007.py) | 简单 |      |
 | 0008 | [字符串转换整数（atoi）](https://leetcode-cn.com/problems/string-to-integer-atoi/) | python | 中等 |      |
-| 0009 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | python | 简单 |      |
+| 0009 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/0009/0009.py) | 简单 |      |
 | 0010 | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | python | 困难 |      |
 | 0011 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | python | 中等 |      |
 | 0012 | [整数转罗马数字](https://leetcode-cn.com/problems/container-with-most-water/) | python | 中等 |      |
-| 0013 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | python | 简单 |      |
-| 0014 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | python | 简单 |      |
+| 0013 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/0013/0013.py) | 简单 |      |
+| 0014 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/0014/0014.py) | 简单 |      |
 | 0015 | [三数之和](https://leetcode-cn.com/problems/longest-common-prefix/) | python | 中等 |      |
 

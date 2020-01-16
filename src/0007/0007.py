@@ -9,6 +9,7 @@ class Solution:
             res = 0
         return -res if x < 0 else res
 
+
 if __name__ == '__main__':
     x = -123
     print(Solution().reverse(x))

@@ -1,6 +1,6 @@
-#### 0001-两数之和
+### 0001-两数之和
 
-直观思路：每次判断`target-num[i]`对应的值是否在`num[i+1:]`中。但考虑到查找索引的最差情况，修改成每次从`nums[:i]`中去查找是否有`target - nums[i]`。
+直观思路：每次判断`target-num[i]`对应的值是否在`num[i+1:]`中。但考虑到查找索引的最差情况，修改成每次从`nums[:i]`中查找是否有`target - nums[i]`。
 
 ```python
 class Solution:
