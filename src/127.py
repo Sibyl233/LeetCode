@@ -1,7 +1,6 @@
 from typing import List
 from collections import deque
 
-
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         
@@ -48,6 +47,6 @@ if __name__ == '__main__':
     endWord = "cog"
     wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
     res = Solution().ladderLength(beginWord, endWord, wordList)
-    print(res)
+    print(res) # 5
 
 
