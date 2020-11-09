@@ -20,8 +20,6 @@ class Solution:
     def reversePrint(self, head: ListNode) -> List[int]:
         return self.reversePrint(head.next) + [head.val] if head else []
 
-
-
 def listToListNode(list):
     head = ListNode(list[0])
     p = head

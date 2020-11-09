@@ -23,7 +23,6 @@ class Solution:
         head.next = None
         return cur
 
-
 def listToListNode(list):
     head = ListNode(list[0])
     p = head
@@ -40,6 +39,5 @@ def printListNode(ListNode):
     print('NULL')
 
 if __name__=="__main__": 
-    head = listToListNode([1, 2, 3, 4, 5, None])
-    res = Solution().reverseList(head)
-    printListNode(res)
+    head = listToListNode([1, 2, 3, 4, 5, ])
+    printListNode(Solution().reverseList(head))

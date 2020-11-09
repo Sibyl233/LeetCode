@@ -44,7 +44,6 @@ if __name__ == '__main__':
     beginWord = "hit"
     endWord = "cog"
     wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
-    res = Solution().ladderLength(beginWord, endWord, wordList)
-    print(res) # 5
+    print(Solution().ladderLength(beginWord, endWord, wordList))# 5
 
 
