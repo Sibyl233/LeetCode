@@ -25,10 +25,12 @@
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/31.py) | 中等 | ✔︎ | 数组 |  |
 | 57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/57.py) | 困难   | ✔︎ | 数组、排序 |  |
 | 122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/122.py) | 简单 |  | 数组 |  |
-| 127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)    | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/127.py) | 中等   | ✔︎ | BFS |  |
-| 140 | [单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/140.py) | 困难 |  |  |  |
+| 127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)    | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/127.py) | 中等   | ✔︎ | 动态规划、BFS |  |
+| 139 | [单词拆分](https://leetcode-cn.com/problems/word-break/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/139.py) | 中等 | ✔︎ | 动态规划、回溯 | |
+| 140 | [单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/140.py) | 困难 | ✔︎ | 动态规划、回溯 | 139 |
 | 327 | [区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/327.py) | 困难 | ✔︎ | 排序 |  |
 | 349 | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/349.py) | 简单 |  | 数组 | |
+| 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | | 动态规划、DFS | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
 | 973 | [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/973.py) | 中等 | | 排序 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
