@@ -29,13 +29,17 @@
 | 139 | [单词拆分](https://leetcode-cn.com/problems/word-break/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/139.py) | 中等 | ✔︎ | 动态规划、回溯 | |
 | 140 | [单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/140.py) | 困难 | ✔︎ | 动态规划、回溯 | 139 |
 | 327 | [区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/327.py) | 困难 | ✔︎ | 排序 |  |
+| 328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/328.py) | 中等 |  | 链表 | |
 | 349 | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/349.py) | 简单 |  | 数组 | |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | | 动态规划、DFS | |
+| 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/922.py) | 简单 | | 数组、排序 | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
 | 973 | [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/973.py) | 中等 | | 排序 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
 
 #### 
 
-参考：https://github.com/luliyucoordinate/Leetcode
+### 参考：
+
+https://github.com/luliyucoordinate/Leetcode
 
