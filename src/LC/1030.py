@@ -2,8 +2,8 @@ from typing import List
 
 """
 解法1：直接排序
-    - 时间复杂度：O(RClog(RC))
-    - 空间复杂度：O(log(RC))
+- 时间复杂度：O(RClog(RC))
+- 空间复杂度：O(log(RC))
 """
 # class Solution:
 #     def allCellsDistOrder(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
@@ -13,8 +13,8 @@ from typing import List
 
 """
 解法2：桶排序
-    - 时间复杂度：O(RC)
-    - 空间复杂度：O(RC)
+- 时间复杂度：O(RC)
+- 空间复杂度：O(RC)
 """
 # class Solution:
 #     def allCellsDistOrder(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
@@ -31,8 +31,8 @@ from typing import List
 
 """
 解法3：BFS
-    - 时间复杂度：O((R+C)^2)
-    - 空间复杂度：O(1)
+- 时间复杂度：O((R+C)^2)
+- 空间复杂度：O(1)
 """
 class Solution:
     def allCellsDistOrder(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
