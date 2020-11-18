@@ -26,6 +26,7 @@
 | 57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/57.py) | 困难   | note | 数组、排序 |  |
 | 122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/122.py) | 简单 |  | 数组 |  |
 | 127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)    | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/127.py) | 中等   | note | 动态规划、BFS |  |
+| 134 | [加油站](https://leetcode-cn.com/problems/gas-station/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/134.py) | 中等 |  | 贪心算法 | |
 | 139 | [单词拆分](https://leetcode-cn.com/problems/word-break/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/139.py) | 中等 | note | 动态规划、回溯 | |
 | 140 | [单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/140.py) | 困难 | note | 动态规划、回溯 | 139 |
 | 327 | [区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/327.py) | 困难 | note | 排序 |  |
