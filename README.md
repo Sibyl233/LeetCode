@@ -46,7 +46,7 @@
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1030.py) | 简单 | | 排序 | |
 | 1122 | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1122.py) | 简单 | note | 数组、排序 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
-| 1370 | [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1370.py) | 简单 | note | 字符串、排序 | |
+| 1370 | [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1370.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1370.md) | 字符串、排序 | |
 
 #### 
 
