@@ -1,10 +1,5 @@
 from typing import List
-
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from utils.listNode import *
 
 """
 解法：链表的插入排序
@@ -34,21 +29,6 @@ class Solution:
             cur = lastSorted.next            # 处理下一个待插入元素
 
         return dummyHead.next                  
-
-def listToListNode(list):
-    head = ListNode(list[0])
-    p = head
-    for i in range(1, len(list)):
-        p.next = ListNode(list[i])
-        p = p.next
-    return head
-
-def printListNode(ListNode):
-    p = ListNode
-    while p != None:
-        print(p.val, '->', end='')
-        p = p.next
-    print('NULL')
 
 if __name__=="__main__": 
     head = listToListNode([4, 2, 1, 3])

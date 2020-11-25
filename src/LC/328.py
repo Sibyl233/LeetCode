@@ -1,8 +1,4 @@
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from utils.listNode import *
 
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
@@ -17,21 +13,6 @@ class Solution:
             even = even.next
         odd.next = evenHead
         return head
-
-def listToListNode(list):
-    head = ListNode(list[0])
-    p = head
-    for i in range(1, len(list)):
-        p.next = ListNode(list[i])
-        p = p.next
-    return head
-
-def printListNode(ListNode):
-    p = ListNode
-    while p != None:
-        print(p.val, '->', end='')
-        p = p.next
-    print('NULL')
 
 if __name__=="__main__": 
     head = listToListNode([1,2,3,4,5, ])
