@@ -2,8 +2,8 @@ from typing import List
 
 """
 解法1：基数排序
-    - 时间复杂度：O(n)
-    - 空间复杂度：O(n)
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)
 """
 # class Solution:
 #     def maximumGap(self, nums: List[int]) -> int:
@@ -30,8 +30,8 @@ from typing import List
 
 """
 解法2：桶排序
-    - 时间复杂度：O(n)
-    - 空间复杂度：O(n)
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)
 """
 class Solution:
     def maximumGap(self, nums: List[int]) -> int: 

@@ -3,8 +3,8 @@ from utils.listNode import *
 
 """
 解法：链表的插入排序
-    - 时间复杂度：O(n^2)，n为链表长度
-    - 空间复杂度：O(1)
+- 时间复杂度：O(n^2)，n为链表长度
+- 空间复杂度：O(1)
 """
 class Solution:
     def insertionSortList(self, head: ListNode) -> List[int]:

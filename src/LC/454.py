@@ -3,8 +3,8 @@ import collections
 
 """
 解法：分组+哈希表
-    - 时间复杂度：O(n^2)，两次二重循环
-    - 空间复杂度：O(n^2)，哈希映射所需要的空间
+- 时间复杂度：O(n^2)，两次二重循环
+- 空间复杂度：O(n^2)，哈希映射所需要的空间
 """
 class Solution:
     def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:

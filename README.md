@@ -42,9 +42,9 @@
 | 406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/406.py) | 中等 |  | 排序、贪心算法 | |
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
 | 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | note |  | 18 |
-| 493 |  |  |  |  | |  |
+| 493 | [翻转对](https://leetcode-cn.com/problems/reverse-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/493.py) | 困难 | note | | JZ51 |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
-| 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 |  |  | |
+| 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/767.md) |  | |
 | 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/922.py) | 简单 | | 数组、排序 | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
 | 973 | [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/973.py) | 中等 | | 排序 | |
