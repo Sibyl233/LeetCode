@@ -84,7 +84,6 @@ class Solution:
                     tmp = tmp.next
                 tmp.next = head1 if len1 else head2
                 
-                
                 while len1 > 0 or len2 > 0: 
                     tmp = tmp.next
                     len1, len2 = len1 - 1, len2 - 1

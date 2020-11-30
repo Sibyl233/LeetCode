@@ -16,7 +16,7 @@
 | JZ59-I  | [滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-I.py) | 简单   |      | 队列           | 239  |
 | JZ59-II | [队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-II.py) | 中等   |      | 栈             | 155  |
 
-#### 
+
 
 ### 每日一题
 
@@ -41,18 +41,20 @@
 | 402 | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/402.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/402.md) | 栈、贪心算法 | |
 | 406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/406.py) | 中等 |  | 排序、贪心算法 | |
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
-| 453 |  |  |  | |  | |
-| 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | |  | 18 |
+| 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | note |  | 18 |
+| 493 |  |  |  |  | |  |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
+| 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 |  |  | |
 | 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/922.py) | 简单 | | 数组、排序 | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
 | 973 | [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/973.py) | 中等 | | 排序 | |
+| 976 | [三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/976.py) | 简单 |  |  | |
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1030.py) | 简单 | | 排序 | |
 | 1122 | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1122.py) | 简单 | note | 数组、排序 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
 | 1370 | [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1370.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1370.md) | 字符串、排序 | |
 
-#### 
+
 
 ### 参考：
 
