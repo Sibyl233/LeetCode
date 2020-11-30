@@ -22,6 +22,7 @@
 
 | #    | 题名                                                         | 题解 | 难易度 | 笔记 | 标签 | 相关 |
 | ---- | ------------------------------------------------------------ | -------- | ---------- | ---- | ---- | ---- |
+| 18 | [四数之和](https://leetcode-cn.com/problems/4sum/) |  |  |  |  |  |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/31.py) | 中等 | note | 数组 |  |
 | 57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/57.py) | 困难   | note | 数组、排序 |  |
 | 122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/122.py) | 简单 |  | 数组 |  |
@@ -31,6 +32,7 @@
 | 140 | [单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/140.py) | 困难 | note | 动态规划、回溯 | 139 |
 | 147 | [对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/147.py) | 中等 |  | 链表、排序 |  |
 | 148 | [排序链表](https://leetcode-cn.com/problems/sort-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/148.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/148.md) | 链表、排序 | 21、147 |
+| 164 | [最大间距](https://leetcode-cn.com/problems/maximum-gap/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/164.py) | 困难 | note | 排序 |  |
 | 222 | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/222.py) | 中等 |  | 树、二分查找 |  |
 | 242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/242.py) | 简单 |  |  |  |
 | 327 | [区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/327.py) | 困难 | note | 排序 |  |
@@ -39,6 +41,8 @@
 | 402 | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/402.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/402.md) | 栈、贪心算法 | |
 | 406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/406.py) | 中等 |  | 排序、贪心算法 | |
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
+| 453 |  |  |  | |  | |
+| 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | |  | 18 |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
 | 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/922.py) | 简单 | | 数组、排序 | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |

@@ -94,10 +94,6 @@ class Solution:
 
         return dummyHead.next
 
-       
-               
-                
-
 if __name__=="__main__": 
     head = listToListNode([4, 2, 1, 3])
     printListNode(Solution().sortList(head)) 
