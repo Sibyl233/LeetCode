@@ -1,5 +1,10 @@
 from typing import List
 
+"""
+解法：两遍扫描
+- 时间复杂度：O(N)
+- 空间复杂度：O(1)
+"""
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """

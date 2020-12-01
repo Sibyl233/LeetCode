@@ -2,21 +2,21 @@
 
 ### 剑指Offer
 
-| #       | 题名                                                         | 题解                                                         | 难易度 | 笔记 | 标签           | 相关 |
-| ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---- | -------------- | ---- |
-| JZ03    | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ03.py) | 简单   |      | 数组           |      |
-| JZ05    | [替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ05.py) | 简单   |      | 字符串         |      |
-| JZ06    | [从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ06.py) | 简单   |      | 链表           |      |
-| JZ09    | [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ09.py) | 简单   |      | 链表           |      |
-| JZ10-I  | [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ10-I.py) | 简单   |      | 递归、动态规划 | 509  |
-| JZ10-II | [青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ10-II.py) | 简单   |      | 递归、动态规划 | 70   |
-| JZ18    | [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ18.py) | 简单   |      | 链表           |      |
-| JZ22    | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ22.py) | 简单   |      | 链表           |      |
-| JZ24    | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ24.py) | 简单   |      | 链表           | 206  |
-| JZ30    | [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ30.py) | 简单   |      | 栈             | 155  |
-| JZ52    | [两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ52.py) | 简单   |      | 链表           | 160  |
-| JZ59-I  | [滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-I.py) | 简单   |      | 队列           | 239  |
-| JZ59-II | [队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-II.py) | 中等   |      | 栈             | 155  |
+| #       | 题名                                                         | 题解                                                         | 难易度 | 笔记                                                         | 标签           | 相关 |
+| ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ | -------------- | ---- |
+| JZ03    | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ03.py) | 简单   | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/JZ/JZ03.md) | 数组           |      |
+| JZ05    | [替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ05.py) | 简单   |                                                              | 字符串         |      |
+| JZ06    | [从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ06.py) | 简单   |                                                              | 链表           |      |
+| JZ09    | [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ09.py) | 简单   |                                                              | 链表           |      |
+| JZ10-I  | [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ10-I.py) | 简单   |                                                              | 递归、动态规划 | 509  |
+| JZ10-II | [青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ10-II.py) | 简单   |                                                              | 递归、动态规划 | 70   |
+| JZ18    | [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ18.py) | 简单   |                                                              | 链表           |      |
+| JZ22    | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ22.py) | 简单   |                                                              | 链表           |      |
+| JZ24    | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ24.py) | 简单   |                                                              | 链表           | 206  |
+| JZ30    | [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ30.py) | 简单   |                                                              | 栈             | 155  |
+| JZ52    | [两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ52.py) | 简单   |                                                              | 链表           | 160  |
+| JZ59-I  | [滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-I.py) | 简单   |                                                              | 队列           | 239  |
+| JZ59-II | [队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-II.py) | 中等   |                                                              | 栈             | 155  |
 
 
 

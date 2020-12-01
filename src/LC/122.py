@@ -1,5 +1,10 @@
 from typing import List
 
+"""
+解法：贪心算法
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+"""
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         res = 0

@@ -1,10 +1,5 @@
 from typing import List
-
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from utils.listNode import *
 
 # 解法1：双指针
 # class Solution:
@@ -22,21 +17,6 @@ class Solution:
         head.next.next = head #head的下一个节点指向head
         head.next = None
         return cur
-
-def listToListNode(list):
-    head = ListNode(list[0])
-    p = head
-    for i in range(1, len(list)):
-        p.next = ListNode(list[i])
-        p = p.next
-    return head
-
-def printListNode(ListNode):
-    p = ListNode
-    while p != None:
-        print(p.val, '->', end='')
-        p = p.next
-    print('NULL')
 
 if __name__=="__main__": 
     head = listToListNode([1, 2, 3, 4, 5, ])
