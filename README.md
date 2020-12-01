@@ -4,6 +4,8 @@
 
 | #       | 题名                                                         | 题解                                                         | 难易度 | 笔记 | 标签           | 相关 |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | ---- | -------------- | ---- |
+| JZ03    | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ03.py) | 简单   |      | 数组           |      |
+| JZ05    | [替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ05.py) | 简单   |      | 字符串         |      |
 | JZ06    | [从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ06.py) | 简单   |      | 链表           |      |
 | JZ09    | [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ09.py) | 简单   |      | 链表           |      |
 | JZ10-I  | [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ10-I.py) | 简单   |      | 递归、动态规划 | 509  |
@@ -24,6 +26,7 @@
 | ---- | ------------------------------------------------------------ | -------- | ---------- | ---- | ---- | ---- |
 | 18 | [四数之和](https://leetcode-cn.com/problems/4sum/) |  |  |  |  |  |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/31.py) | 中等 | note | 数组 |  |
+| 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/34.py) | 中等 |  | 数组、查找 | |
 | 57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/57.py) | 困难   | note | 数组、排序 |  |
 | 122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/122.py) | 简单 |  | 数组 |  |
 | 127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)    | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/127.py) | 中等   | note | 动态规划、BFS |  |
