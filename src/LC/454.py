@@ -1,8 +1,7 @@
 from typing import List
 import collections
 
-"""
-解法：分组+哈希表
+"""解法：分组+哈希表
 - 时间复杂度：O(n^2)，两次二重循环
 - 空间复杂度：O(n^2)，哈希映射所需要的空间
 """

@@ -1,5 +1,9 @@
 from typing import List
 
+"""解法：双指针
+- 时间复杂度：O(N)
+- 空间复杂度：O(1)
+"""
 class Solution:
     def validMountainArray(self, A: List[int]) -> bool:
         l,r=0,len(A)-1

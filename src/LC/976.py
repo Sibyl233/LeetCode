@@ -1,5 +1,9 @@
 from typing import List
 
+"""解法：贪心+排序
+- 时间复杂度：O(Nlog(N))
+- 空间复杂度：O(log(N))
+"""
 class Solution:
     def largestPerimeter(self, A: List[int]) -> int:
         i=0

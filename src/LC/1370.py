@@ -1,7 +1,6 @@
 import collections
 
-"""
-解法1：桶计数
+"""解法1：桶计数
 - 时间复杂度：O(26*Length)
 - 空间复杂度：O(26)
 """
@@ -25,8 +24,7 @@ class Solution:
                     num[i] -= 1
         return "".join(res)
 
-"""
-解法2：调用内置函数。思路同解法1。
+"""解法2：调用内置函数。思路同解法1。
 """
 # class Solution:
 #     def sortString(self, s: str) -> str:

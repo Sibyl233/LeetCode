@@ -1,5 +1,9 @@
 from typing import List
 
+"""解法：排序+遍历
+- 时间复杂度：O(n^2)
+- 空间复杂度：O(log(n))
+"""
 class Solution:
     def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
         # 先按h降序，再按k升序

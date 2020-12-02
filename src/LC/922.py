@@ -1,5 +1,9 @@
 from typing import List
 
+"""解法：双指针
+- 时间复杂度：O(N)
+- 空间复杂度：O(1)
+"""
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         even, odd = [],[]

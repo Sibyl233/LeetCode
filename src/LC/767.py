@@ -1,10 +1,9 @@
 import collections
 import heapq
 
-"""
-解法1：基于堆的贪心算法
-- 时间复杂度：O(nlog∣Σ∣+∣Σ∣)
-- 空间复杂度：O(∣Σ∣)
+"""解法1：基于堆的贪心算法
+- 时间复杂度：O(nlog26+26)
+- 空间复杂度：O(26)
 """
 # class Solution:
 #     def reorganizeString(self, S: str) -> str:
@@ -31,10 +30,9 @@ import heapq
 
 #         return res
 
-"""
-解法2：基于计数的贪心算法
-- 时间复杂度：O(n+∣Σ∣)
-- 空间复杂度：O(∣Σ∣)
+"""解法2：基于计数的贪心算法
+- 时间复杂度：O(n+26)
+- 空间复杂度：O(26)
 """
 class Solution:
     def reorganizeString(self, S: str) -> str:

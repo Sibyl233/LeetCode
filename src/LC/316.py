@@ -16,7 +16,7 @@ from collections import Counter
 #             if c[s[i]] == 0: break
 #         # our answer is the leftmost letter plus the recursive call on the remainder of the string
 #         # note we have to get rid of further occurrences of s[pos] to ensure that there are no duplicates
-        return s[pos] + self.removeDuplicateLetters(s[pos:].replace(s[pos], "")) if s else ''
+#         return s[pos] + self.removeDuplicateLetters(s[pos:].replace(s[pos], "")) if s else ''
 
 class Solution:
     def removeDuplicateLetters(self, s) -> int:

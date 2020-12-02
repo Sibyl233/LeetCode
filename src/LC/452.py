@@ -1,7 +1,6 @@
 from typing import List
 
-"""
-解法：排序
+"""解法：排序
 - 时间复杂度：O(nlog(n))
 - 空间复杂度：O(log(n))
 """

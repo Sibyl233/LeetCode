@@ -1,5 +1,9 @@
 from typing import List
 
+"""解法：排序
+- 时间复杂度：O(nlog(n))
+- 空间复杂度：O(log(n))
+"""
 class Solution:
     def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
         points.sort(key = lambda x: (x[0]**2+x[1]**2))

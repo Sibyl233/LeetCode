@@ -1,5 +1,9 @@
 from utils.listNode import *
 
+"""解法：
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+"""
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
         if not head:

@@ -1,7 +1,6 @@
 from typing import List
 
-"""
-解法1：直接排序
+"""解法1：直接排序
 - 时间复杂度：O(RClog(RC))
 - 空间复杂度：O(log(RC))
 """
@@ -11,8 +10,7 @@ from typing import List
 #         res.sort(key=lambda x: abs(x[0] - r0) + abs(x[1] - c0))
 #         return res
 
-"""
-解法2：桶排序
+"""解法2：桶排序
 - 时间复杂度：O(RC)
 - 空间复杂度：O(RC)
 """
@@ -29,8 +27,7 @@ from typing import List
 #             res.extend(bucket[i])
 #         return res
 
-"""
-解法3：BFS
+"""解法3：BFS
 - 时间复杂度：O((R+C)^2)
 - 空间复杂度：O(1)
 """

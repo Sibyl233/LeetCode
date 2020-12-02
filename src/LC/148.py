@@ -1,8 +1,7 @@
 from typing import List
 from utils.listNode import *
 
-"""
-解法1：自顶向下归并排序（递归）
+"""解法1：自顶向下归并排序（递归）
 - 时间复杂度：O(nlog(n))，n为链表长度
 - 空间复杂度：O(1)
 """
@@ -36,8 +35,7 @@ from utils.listNode import *
                     
 #         return sort(head)
 
-"""
-解法2：自底向上归并排序（迭代）
+"""解法2：自底向上归并排序（迭代）
 - 时间复杂度：O(nlog(n))，n为链表长度
 - 空间复杂度：O(1)
 """
