@@ -1,7 +1,7 @@
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         stack = []
-        remain = len(num) - k # 处理数字还没删除完的情况（比如数字序列单调递增）
+        remain = len(num) - k # 要保留的数字个数。处理数字还没删除完的情况（比如数字序列单调递增）
         for digit in num:
             while k and stack and stack[-1] > digit:
                 stack.pop()

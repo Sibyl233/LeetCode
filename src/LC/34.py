@@ -15,10 +15,15 @@ class Solution:
         if lo >= len(nums) or nums[lo] > target:
             return[-1, -1]
         else:
-            start = end = lo
-            while end < len(nums) and nums[end] == target:
-                end += 1
-        return [start,end-1]
+            start  = lo
+            hi = len(nums)
+            while lo < hi:
+                mid = (lo+hi)//2
+                if target >= nums[mid]: lo = mid+1
+                else: hi = mid
+            end = lo-1
+    
+        return [start,end]
 
 if __name__ == "__main__":
     nums = [5,7,7,8,8,10]

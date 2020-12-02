@@ -1,7 +1,6 @@
 from typing import List
 
-"""
-解法1：集合/哈希表
+"""解法1：集合/哈希表
 - 时间复杂度：O(n)
 - 空间复杂度：O(n)
 """
@@ -14,8 +13,7 @@ from typing import List
 #             dic.add(num)
 #         return -1
 
-"""
-解法2：原地交换
+"""解法2：原地交换
 - 时间复杂度：O(n)
 - 空间复杂度：O(1)
 """
