@@ -10,23 +10,26 @@ class Solution:
             return[-1,-1]
         
         # 第一次二分查找：找到元素的开始位置
-        lo = 0
-        hi = len(nums)
+        lo, hi = 0, len(nums)-1
         while lo < hi:
             mid = (lo+hi)//2
-            if target > nums[mid]: lo = mid+1 
-            else: hi = mid
+            if target > nums[mid]: 
+                lo = mid+1 
+            else: 
+                hi = mid
         
         if lo >= len(nums) or nums[lo] > target: # 条件1说明所有元素都小于target；条件2说明不存在该元素。
             return[-1, -1]
         else:
             # 第二次二分查找：找到元素的结束位置
             start  = lo
-            hi = len(nums)
+            hi = len(nums)-1
             while lo < hi:
                 mid = (lo+hi)//2
-                if target >= nums[mid]: lo = mid+1 # 注意这里是大于等于
-                else: hi = mid
+                if target >= nums[mid]: 
+                    lo = mid+1 # 注意这里是大于等于
+                else: 
+                    hi = mid
             end = lo-1
     
         return [start,end]

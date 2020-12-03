@@ -1,5 +1,4 @@
-from utils.treeNode import *
-from binarytree import Node
+from binarytree import Node as TreeNode
 
 """解法1：暴力递归
 - 时间复杂度：O(n)
@@ -34,10 +33,11 @@ class Solution:
         return self.countNodes(root.left) + self.countNodes(root.right) + 1
 
 if __name__=="__main__": 
-    root = Node(1)
-    root.left = Node(2)
-    root.right = Node(3)
-    root.left.left = Node(4)
-    root.left.right = Node(5)
-    root.left.right = Node(6)
-    print(Solution().countNodes(root)) 
+    root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
+    root.left.left = TreeNode(4)
+    root.left.right = TreeNode(5)
+    root.left.right = TreeNode(6)
+    print(root)
+    print(Solution().countNodes(root)) # 5
