@@ -1,6 +1,6 @@
 from typing import List
 
-"""解法1：两次二分查找
+"""解法1：两次二分查找。先找分界（LC153），再找target。
 """
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
@@ -25,10 +25,6 @@ class Solution:
                 hi = mid
 
         return lo if nums[lo] == target else -1
-
-"""解法2：二分查找
-"""
-
 
 if __name__=="__main__": 
     nums = [4,5,6,7,0,1,2]

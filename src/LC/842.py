@@ -1,5 +1,9 @@
 from typing import List
 
+"""解法：贪心
+- 时间复杂度：O(nlog^2*C)。n位字符串长度，C位题目规定的整数范围。
+- 空间复杂度：O(n)
+"""
 class Solution:
     def splitIntoFibonacci(self, S: str) -> List[int]:
         ans = []
@@ -10,11 +14,12 @@ class Solution:
             
             cur = 0
             for i in range(idx, len(S)):
-                if i > idx and S[idx] == "0":
-                    break
+                
+                if i > idx and S[idx] == "0":  
+                    break # 剪枝1：拆分出的数以0开头
                 cur = cur * 10 + ord(S[i]) - ord("0")
-                if cur > 2**31 - 1:
-                    break
+                if cur > 2**31 - 1:           
+                    break # 剪枝2：拆分出的数超过题设范围
                 
                 if len(ans) < 2 or cur == ans[-2] + ans[-1]:
                     ans.append(cur)
@@ -22,7 +27,7 @@ class Solution:
                         return True
                     ans.pop()
                 elif len(ans) > 2 and cur > ans[-2] + ans[-1]:
-                    break
+                    break # 剪枝3：拆分出的数大于最后两数之和
         
             return False
         

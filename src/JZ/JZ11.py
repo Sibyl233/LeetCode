@@ -7,7 +7,7 @@ class Solution:
             mid = (lo + hi) // 2
             if nums[mid] > nums[hi]:
                 lo = mid + 1
-            elif nums[mid] > nums[hi]:
+            elif nums[mid] < nums[hi]:
                 hi = mid
             else:
                 hi = hi - 1
