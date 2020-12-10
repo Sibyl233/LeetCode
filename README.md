@@ -13,6 +13,7 @@
 | JZ10-I  | [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ10-I.py) | 简单   |                                                              | 递归、动态规划 | 509      |
 | JZ10-II | [青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ10-II.py) | 简单   |                                                              | 递归、动态规划 | 70       |
 | JZ11    | [旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ11.py) | 简单   |                                                              | 数组、二分查找 | 153、154 |
+| JZ12    | [矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ12.py) | 中等   |                                                              | DFS            | 79       |
 | JZ18    | [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ18.py) | 简单   |                                                              | 链表           |          |
 | JZ22    | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ22.py) | 简单   |                                                              | 链表           |          |
 | JZ24    | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ24.py) | 简单   |                                                              | 链表           | 206      |
@@ -32,6 +33,7 @@
 | 33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | 未完 | 中等 |  | 数组、二分查找 | 81 |
 | 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/34.py) | 中等 |  | 数组、查找 | |
 | 57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/57.py) | 困难   | note | 数组、排序 |  |
+| 62 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/62.py) | 中等 |  | 数组、动态规划 | 63… |
 | 81 | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | 未完 | 中等 |  | 数组、二分查找 | 33 |
 | 118 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) |  | 简单 | | 数组 | 119 |
 | 119 |  |  | 简单 | | 数组 | 118 |
@@ -60,6 +62,7 @@
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
 | 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/767.md) |  | |
 | 842 | [将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/842.py) | 中等 | note | 回溯 | |
+| 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/860.py) | 简单 |  |  | |
 | 861 | [翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/861.py) |  |  |  | |
 | 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/922.py) | 简单 | | 数组、排序 | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
