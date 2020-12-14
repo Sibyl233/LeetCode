@@ -3,25 +3,14 @@ from collections import Counter
 
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
-        cash = Counter({5:0, 10:0, 20:0})
-        for bill in bills:
-            if bill == 5:
-                cash[5]+=1
-            elif bill == 10:
-                if cash[5] == 0: 
-                    return False
-                cash[10]+=1
-                cash[5]-=1
-            elif bill == 20:
-                if cash[10] >=1 and cash[5]>=1:
-                    cash[10]-=1
-                    cash[5]-=1
-                    cash[20]+=1
-                elif cash[5]>=3:
-                    cash[5]-=3
-                    cash[20]+=1
-                else:
-                    return False
+        i=j=0
+        for k in bills:
+            if k==5:i+=1
+            elif k==10:j+=1;i-=1
+            else:
+                if j==0:i-=3
+                else:i-=1;j-=1
+            if i<0 or j<0:return False
         return True
 
 if __name__ == "__main__":
