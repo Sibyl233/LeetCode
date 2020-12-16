@@ -51,23 +51,25 @@
 | 217 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/217.py) | 简单 |  | 数组 | |
 | 222 | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/222.py) | 中等 |  | 树、二分查找 |  |
 | 242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/242.py) | 简单 |  |  |  |
+| 290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/290.py) | 简单 | | 字符串 | |
 | 316 | [去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/316.py) | 困难 | note | | 321、402 |
 | 321 | [拼接最大数](https://leetcode-cn.com/problems/create-maximum-number/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/321.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/321.md) | 栈、贪心算法 | 316、402 |
 | 327 | [区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/327.py) | 困难 | note | 排序 |  |
 | 328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/328.py) | 中等 |  | 链表 | |
 | 349 | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/349.py) | 简单 |  | 数组 | |
-| 376 | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) |  | 中等 | |  | |
+| 376 | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/376.py) | 中等 | Note |  | |
 | 402 | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/402.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/402.md) | 栈、贪心算法 | 316、321 |
 | 406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/406.py) | 中等 |  | 排序、贪心算法 | |
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
 | 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | note |  | 18 |
 | 493 | [翻转对](https://leetcode-cn.com/problems/reverse-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/493.py) | 困难 | note | | JZ51 |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
-| 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) |  | 中等 |  |  | |
+| 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 中等 |  | 堆、队列 | |
+| 738 | [单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | note | 贪心 | |
 | 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/767.md) |  | |
 | 842 | [将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/842.py) | 中等 | note | 回溯 | |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/860.py) | 简单 |  |  | |
-| 861 | [翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/861.py) |  |  |  | |
+| 861 | [翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/861.py) | 中等 |  |  | |
 | 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/922.py) | 简单 | | 数组、排序 | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
 | 973 | [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/973.py) | 中等 | | 排序 | |
