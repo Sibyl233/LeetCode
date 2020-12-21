@@ -20,8 +20,8 @@ from collections import Counter
 class Solution:
     def removeDuplicateLetters(self, s) -> int:
         stack = []
-        seen = set()
-        remain_counter = collections.Counter(s)
+        seen = set() # 记录每个字母都出现
+        remain_counter = collections.Counter(s) #记录每个字母出现次数
 
         for c in s:
             if c not in seen:
