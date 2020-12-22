@@ -1,4 +1,4 @@
-# from functools import lru_cache
+from functools import lru_cache
 
 # 解法1：递归
 # class Solution:
