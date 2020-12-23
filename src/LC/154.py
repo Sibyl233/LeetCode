@@ -1,7 +1,7 @@
 from typing import List
 
 class Solution:
-    def minArray(self, nums: List[int]) -> int:
+    def findMin(self, nums: List[int]) -> int:
         lo, hi = 0, len(nums)-1
         while lo < hi:
             mid = (lo + hi) // 2
@@ -15,4 +15,4 @@ class Solution:
 
 if __name__=="__main__": 
     numbers = [2,2,2,0,1]
-    print(Solution().minArray(numbers)) # 1        
+    print(Solution().findMin(numbers)) # 0

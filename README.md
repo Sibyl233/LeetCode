@@ -14,6 +14,8 @@
 | JZ10-II | [青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ10-II.py) | 简单   |                                                              | 递归、动态规划 | 70       |
 | JZ11    | [旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ11.py) | 简单   |                                                              | 数组、二分查找 | 153、154 |
 | JZ12    | [矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ12.py) | 中等   |                                                              | DFS            | 79       |
+| JZ14-I  | [剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ14-I.py) | 中等   |                                                              | 数学、动态规划 | 343      |
+| JZ14-II | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ14-II.py) | 中等   | note                                                         | 数学、动态规划 | 343      |
 | JZ18    | [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ18.py) | 简单   |                                                              | 链表           |          |
 | JZ22    | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ22.py) | 简单   |                                                              | 链表           |          |
 | JZ24    | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ24.py) | 简单   |                                                              | 链表           | 206      |
@@ -37,6 +39,7 @@
 | 57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/57.py) | 困难   | note | 数组、排序 |  |
 | 62 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/62.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/62.md) | 数组、动态规划 | 63 etc. |
 | 81 | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | 未完 | 中等 |  | 数组、二分查找 | 33 |
+| 103 | [二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/103.py) | 中等 | | 树 |  |
 | 118 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/118.py) | 简单 | | 数组 | 119 |
 | 119 | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/119.py) | 简单 | | 数组 | 118 |
 | 121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ63.py) | 简单 | | 数组、动态规划 |  |
@@ -48,7 +51,7 @@
 | 147 | [对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/147.py) | 中等 |  | 链表、排序 |  |
 | 148 | [排序链表](https://leetcode-cn.com/problems/sort-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/148.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/148.md) | 链表、排序 | 21、147 |
 | 153 | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/153.py) | 中等 |  | 数组、二分查找 | 154、JZ11 |
-| 154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ11.py) | 困难 |  | 数组、二分查找 | 153、JZ11 |
+| 154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/154.py) | 困难 |  | 数组、二分查找 | 153、JZ11 |
 | 164 | [最大间距](https://leetcode-cn.com/problems/maximum-gap/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/164.py) | 困难 | note | 排序 |  |
 | 217 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/217.py) | 简单 |  | 数组 | |
 | 222 | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/222.py) | 中等 |  | 树、二分查找 |  |
@@ -60,7 +63,8 @@
 | 327 | [区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/327.py) | 困难 | note | 排序 |  |
 | 328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/328.py) | 中等 |  | 链表 | |
 | 349 | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/349.py) | 简单 |  | 数组 | |
-| 376 | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/376.py) | 中等 | Note |  | |
+| 376 | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/376.py) | 中等 | note |  | |
+| 387 | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/387.py) | 简单 |  | 字符串、字典 | |
 | 402 | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/402.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/402.md) | 栈、贪心算法 | 316、321 |
 | 406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/406.py) | 中等 |  | 排序、贪心算法 | |
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
