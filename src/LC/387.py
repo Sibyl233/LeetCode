@@ -55,7 +55,7 @@ import collections
 - 时间复杂度：O(n^2)
 - 空间复杂度：O(1)
 """
-class Solution(object):
+class Solution:
     def firstUniqChar(self, s: str) -> int:
         for ch in s:
             if s.find(ch) == s.rfind(ch):
