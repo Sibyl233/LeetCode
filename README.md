@@ -39,6 +39,7 @@
 | 57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/57.py) | 困难   | note | 数组、排序 |  |
 | 62 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/62.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/62.md) | 数组、动态规划 | 63 etc. |
 | 81 | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | 未完 | 中等 |  | 数组、二分查找 | 33 |
+| 86 | [分隔链表](https://leetcode-cn.com/problems/partition-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/86.py) | 中等 | | 链表、双指针 |  |
 | 103 | [二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/103.py) | 中等 | | 树 |  |
 | 118 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/118.py) | 简单 | | 数组 | 119 |
 | 119 | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/119.py) | 简单 | | 数组 | 118 |
@@ -57,6 +58,7 @@
 | 188 | [买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/188.py) | 困难 |  |  | |
 | 217 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/217.py) | 简单 |  | 数组 | |
 | 222 | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/222.py) | 中等 |  | 树、二分查找 |  |
+| 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/239.py) | 困难 | | 堆 | |
 | 242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/242.py) | 简单 |  |  |  |
 | 290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/290.py) | 简单 | | 字符串 | |
 | 309 | [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/309.py) | 中等 | | 数组、动态规划 | |
@@ -73,7 +75,9 @@
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
 | 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | note |  | 18 |
 | 493 | [翻转对](https://leetcode-cn.com/problems/reverse-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/493.py) | 困难 | note | | JZ51 |
+| 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/509.py) | 简单 |  | | JZ10 |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
+| 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/605.py) | 简单 |  | 数组、贪心算法 | |
 | 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 中等 |  | 堆、队列 | |
 | 714 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/714.py) | 中等 | | 数组动态规划、贪心 | |
 | 738 | [单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | note | 贪心 | |
