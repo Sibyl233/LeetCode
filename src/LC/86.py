@@ -1,6 +1,9 @@
-
 from utils.listNode import *
 
+"""解法1：维护两个列表
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+"""
 class Solution:
     def partition(self, head: ListNode, x: int) -> ListNode:
         dummy1 = ListNode(-1)
@@ -15,8 +18,6 @@ class Solution:
                 p2.next = head
                 p2 = p2.next
             head = head.next
-        # print(listNodeToString(dummy1.next))
-        # print(listNodeToString(dummy2.next))
         p1.next = dummy2.next
         p2.next = None
         return dummy1.next
