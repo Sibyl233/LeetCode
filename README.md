@@ -16,7 +16,8 @@
 | JZ12    | [矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ12.py) | 中等   |                                                              | DFS            | 79       |
 | JZ14-I  | [剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ14-I.py) | 中等   |                                                              | 数学、动态规划 | 343      |
 | JZ14-II | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ14-II.py) | 中等   | note                                                         | 数学、动态规划 | 343      |
-| JZ15    |                                                              | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ15.py) | 简单   |                                                              |                | 191      |
+| JZ15    | [二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ15.py) | 简单   | note                                                         | 位运算         | 191      |
+| JZ16    | [数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ16.py) | 中等   | note                                                         | 递归           | 50       |
 | JZ18    | [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ18.py) | 简单   |                                                              | 链表           |          |
 | JZ22    | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ22.py) | 简单   |                                                              | 链表           |          |
 | JZ24    | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ24.py) | 简单   |                                                              | 链表           | 206      |
@@ -71,6 +72,7 @@
 | 349 | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/349.py) | 简单 |  | 数组 | |
 | 376 | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/376.py) | 中等 | note |  | |
 | 387 | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/387.py) | 简单 |  | 字符串、字典 | |
+| 399 | [除法求值](https://leetcode-cn.com/problems/evaluate-division/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/399.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/399.md) | 图、并查集 | |
 | 402 | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/402.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/402.md) | 栈、贪心算法 | 316、321 |
 | 406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/406.py) | 中等 |  | 排序、贪心算法 | |
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
@@ -84,6 +86,7 @@
 | 738 | [单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | note | 贪心 | |
 | 746 | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/746.py) | 简单 |  | 动态规划 | |
 | 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/767.md) |  | |
+| 830 | [较大分组的位置](https://leetcode-cn.com/problems/positions-of-large-groups/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/830.py) | 简单 |  | 数组 | |
 | 842 | [将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/842.py) | 中等 | note | 回溯 | |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/860.py) | 简单 |  |  | |
 | 861 | [翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/861.py) | 中等 |  |  | |
