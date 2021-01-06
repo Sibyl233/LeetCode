@@ -1,6 +1,8 @@
+from typing import List
+
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
-        # 构造图，equations的第一项除以第二项等于value里的对应值，第二项除以第一项等于其倒数
+        # 构造图
         graph = {}
         for (x, y), v in zip(equations, values):
             if x in graph:
@@ -11,9 +13,9 @@ class Solution:
                 graph[y][x] = 1/v
             else:
                 graph[y] = {x: 1/v}
-        print(graph)
+        # print(graph)
         
-        # dfs找寻从s到t的路径并返回结果叠乘后的边权重即结果
+        # dfs找寻从s到t的路径并返回结果，结果即叠乘后的边权重
         def dfs(s, t) -> int:
             if s not in graph:
                 return -1
@@ -23,7 +25,7 @@ class Solution:
                 if node == t:
                     return graph[s][node]
                 elif node not in visited:
-                    visited.add(node)  # 添加到已访问避免重复遍历
+                    visited.add(node)  # 添加到已访问避免重复遍历（到底加s还是note？）
                     v = dfs(node, t)
                     if v != -1:
                         return graph[s][node]*v
@@ -36,6 +38,8 @@ class Solution:
             res.append(dfs(qs, qt))
         return res
 
-        输入：equations = [["a","b"],["b","c"],["bc","cd"]], values = [1.5,2.5,5.0], queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
-输出：[3.75000,0.40000,5.00000,0.20000]
-
+if __name__ == "__main__":
+    equations = [["a","b"],["b","c"],["bc","cd"]]
+    values = [1.5,2.5,5.0]
+    queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
+    print(Solution().calcEquation(equations, values, queries)) # [3.75000,0.40000,5.00000,0.20000]
