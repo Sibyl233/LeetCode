@@ -18,8 +18,9 @@
 | JZ14-II | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ14-II.py) | 中等   | note                                                         | 数学、动态规划 | 343      |
 | JZ15    | [二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ15.py) | 简单   | note                                                         | 位运算         | 191      |
 | JZ16    | [数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ16.py) | 中等   | note                                                         | 递归           | 50       |
-| JZ17    |                                                              | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ17.py) | 简单   | note                                                         |                |          |
+| JZ17    | [打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ17.py) | 简单   | note                                                         | 大数问题       |          |
 | JZ18    | [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ18.py) | 简单   |                                                              | 链表           |          |
+| JZ21    | [调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ21.py) | 简单   |                                                              | 数组           |          |
 | JZ22    | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ22.py) | 简单   |                                                              | 链表           |          |
 | JZ24    | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ24.py) | 简单   |                                                              | 链表           | 206      |
 | JZ30    | [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ30.py) | 简单   |                                                              | 栈             | 155      |
@@ -48,7 +49,7 @@
 | 119 | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/119.py) | 简单 | | 数组 | 118 |
 | 121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ63.py) | 简单 | | 数组、动态规划 |  |
 | 122 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/122.py) | 简单 |  | 数组、动态规划、贪心 |  |
-| 123 | [ 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | 未完 | 困难 | |  | |
+| 123 | [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | 未完 | 困难 | |  | |
 | 127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)    | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/127.py) | 中等   | note | 动态规划、BFS |  |
 | 134 | [加油站](https://leetcode-cn.com/problems/gas-station/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/134.py) | 中等 |  | 贪心算法 | |
 | 139 | [单词拆分](https://leetcode-cn.com/problems/word-break/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/139.py) | 中等 | note | 动态规划、回溯 | |
@@ -59,6 +60,7 @@
 | 154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/154.py) | 困难 |  | 数组、二分查找 | 153、JZ11 |
 | 164 | [最大间距](https://leetcode-cn.com/problems/maximum-gap/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/164.py) | 困难 | note | 排序 |  |
 | 188 | [买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/188.py) | 困难 |  |  | |
+| 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/189.py) | 中等 | | 数组 | |
 | 217 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/217.py) | 简单 |  | 数组 | |
 | 222 | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/222.py) | 中等 |  | 树、二分查找 |  |
 | 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/239.py) | 困难 | | 堆 | |
@@ -81,6 +83,7 @@
 | 493 | [翻转对](https://leetcode-cn.com/problems/reverse-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/493.py) | 困难 | note | | JZ51 |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/509.py) | 简单 |  | | JZ10 |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
+| 547 | [省份数量](https://leetcode-cn.com/problems/number-of-provinces/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/547.py) | 中等 |  | 图、并查集 | |
 | 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/605.py) | 简单 |  | 数组、贪心算法 | |
 | 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 中等 |  | 堆、队列 | |
 | 714 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/714.py) | 中等 | | 数组动态规划、贪心 | |
