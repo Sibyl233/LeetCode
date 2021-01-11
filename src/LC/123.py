@@ -1,29 +1,25 @@
 # 待定
 from typing import List
 
+"""解法：动态规划
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+"""
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        if not prices:
-            return 0
-
+        # buy1: 只进行过一次买操作；
+        # sell1: 进行了一次买操作和一次卖操作，即完成了一笔交易；
+        # buy2: 在完成了一笔交易的前提下，进行了第二次买操作；
+        # sell2: 完成了全部两笔交易。
         n = len(prices)
-        k = 2
-        hold = [[0] * (k + 1) for _ in range(n)]  # hold[i][j]：恰好进行j笔交易，手上持有股票的累计最大收益
-        clear = [[0] * (k + 1) for _ in range(n)] # clear[i][j]：恰好进行j笔交易，手上不持有股票的累计最大收益
-
-        hold[0][0], clear[0][0] = -prices[0], 0
-        for i in range(1, k + 1):
-            hold[0][i] = clear[0][i] = float("-inf")
-
+        buy1 = buy2 = -prices[0]
+        sell1 = sell2 = 0
         for i in range(1, n):
-            hold[i][0] = max(hold[i - 1][0], clear[i - 1][0] - prices[i])
-            for j in range(1, k + 1):
-                hold[i][j] = max(hold[i - 1][j], clear[i - 1][j] - prices[i])
-                clear[i][j] = max(clear[i - 1][j], hold[i - 1][j - 1] + prices[i])
-
-        return max(clear[n - 1])
-
-
+            buy1 = max(buy1, -prices[i])
+            sell1 = max(sell1, buy1 + prices[i])
+            buy2 = max(buy2, sell1 - prices[i])
+            sell2 = max(sell2, buy2 + prices[i])
+        return sell2
 
 if __name__ == "__main__":
     prices = [3,3,5,0,0,3,1,4]

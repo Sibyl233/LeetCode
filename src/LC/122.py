@@ -6,6 +6,8 @@ from typing import List
 """
 # class Solution:
 #     def maxProfit(self, prices: List[int]) -> int:
+#         # dp[i][0]表示第 i 天交易完成手中不持有股票的最大金额数；
+#         # dp[i][1]表示第 i 天交易完成后手中持有一只股票的最大金额数。
 #         n = len(prices)
 #         dp = [[0, -prices[0]]] + [[0, 0] for _ in range(n - 1)]
 #         for i in range(1,n):
@@ -13,17 +15,17 @@ from typing import List
 #             dp[i][1] = max(dp[i - 1][1], dp[i - 1][0] - prices[i]) 
 #         return dp[-1][0]
 
-"""解法1_2：优化的动态规划
+"""解法1_2：优化的动态规划。发现当天的状态只与前一天有关。
 - 时间复杂度：O(n)
 - 空间复杂度：O(1)
 """
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
-        clear, hold = 0, -prices[0]
+        sell, buy = 0, -prices[0]
         for i in range(1, n):
-            clear, hold = max(clear, hold+prices[i]), max(hold, clear-prices[i])
-        return clear
+            sell, buy = max(sell, buy+prices[i]), max(buy, sell-prices[i])
+        return sell
 
 """解法2：贪心算法
 - 时间复杂度：O(n)

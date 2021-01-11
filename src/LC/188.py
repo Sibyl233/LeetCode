@@ -7,20 +7,20 @@ class Solution:
 
         n = len(prices)
         k = min(k, n // 2)                        # n天最多只能进行n//2笔交易
-        hold = [[0] * (k + 1) for _ in range(n)]  # hold[i][j]：恰好进行j笔交易，手上持有股票的累计最大收益
-        clear = [[0] * (k + 1) for _ in range(n)] # clear[i][j]：恰好进行j笔交易，手上不持有股票的累计最大收益
+        buy = [[0] * (k + 1) for _ in range(n)]  # buy[i][j]：恰好进行j笔交易，手上持有股票的累计最大收益
+        sell = [[0] * (k + 1) for _ in range(n)] # sell[i][j]：恰好进行j笔交易，手上不持有股票的累计最大收益
 
-        hold[0][0], clear[0][0] = -prices[0], 0
+        buy[0][0], sell[0][0] = -prices[0], 0
         for i in range(1, k + 1):
-            hold[0][i] = clear[0][i] = float("-inf")
+            buy[0][i] = sell[0][i] = float("-inf")
 
         for i in range(1, n):
-            hold[i][0] = max(hold[i - 1][0], clear[i - 1][0] - prices[i])
+            buy[i][0] = max(buy[i - 1][0], sell[i - 1][0] - prices[i])
             for j in range(1, k + 1):
-                hold[i][j] = max(hold[i - 1][j], clear[i - 1][j] - prices[i])
-                clear[i][j] = max(clear[i - 1][j], hold[i - 1][j - 1] + prices[i])
+                buy[i][j] = max(buy[i - 1][j], sell[i - 1][j] - prices[i])
+                sell[i][j] = max(sell[i - 1][j], buy[i - 1][j - 1] + prices[i])
 
-        return max(clear[n - 1])
+        return max(sell[n - 1])
 
 if __name__ == "__main__":
     k = 2
