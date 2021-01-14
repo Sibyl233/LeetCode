@@ -26,6 +26,7 @@
 | JZ25    | [合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ25.py) | 简单   |                                                              | 链表           |          |
 | JZ29    | [顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ29.py) | 简单   |                                                              | 数组           | 54       |
 | JZ30    | [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ30.py) | 简单   |                                                              | 栈             | 155      |
+| JZ31    | [栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ31.py) | 中等   |                                                              | 栈             | 946      |
 | JZ52    | [两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ52.py) | 简单   |                                                              | 链表           | 160      |
 | JZ59-I  | [滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-I.py) | 简单   |                                                              | 队列           | 239      |
 | JZ59-II | [队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-II.py) | 中等   |                                                              | 栈             | 155      |
@@ -102,6 +103,7 @@
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
 | 973 | [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/973.py) | 中等 | | 排序 | |
 | 976 | [三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/976.py) | 简单 |  |  | |
+| 1018 | [可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1018.py) | 简单 | | 数组 | |
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1030.py) | 简单 | | 排序 | |
 | 1046 | [最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1046.py) | 简单 | | 堆、贪心算法 | |
 | 1122 | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1122.py) | 简单 | note | 数组、排序 | |
