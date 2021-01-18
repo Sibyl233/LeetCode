@@ -1,4 +1,3 @@
-
 from binarytree import Node as TreeNode
 
 """解法1：递归法

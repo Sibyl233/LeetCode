@@ -25,6 +25,7 @@
 | JZ24    | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ24.py) | 简单   |                                                              | 链表           | 206      |
 | JZ25    | [合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ25.py) | 简单   |                                                              | 链表           |          |
 | JZ27    | [二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ27.py) | 简单   |                                                              | 树             |          |
+| JZ28    | [对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ28.py) | 简单   |                                                              | 树             | 101      |
 | JZ29    | [顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ29.py) | 简单   |                                                              | 数组           | 54       |
 | JZ30    | [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ30.py) | 简单   |                                                              | 栈             | 155      |
 | JZ31    | [栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ31.py) | 中等   |                                                              | 栈             | 946      |
@@ -93,6 +94,7 @@
 | 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/649.py) | 中等 |  | 堆、队列 | |
 | 684 | [冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/684.py) | 中等 | | 树、并查集 | |
 | 714 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/714.py) | 中等 | | 数组动态规划、贪心 | |
+| 721 | [账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/721.py) | 中等 | |  | |
 | 738 | [单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | note | 贪心 | |
 | 746 | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/746.py) | 简单 |  | 动态规划 | |
 | 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/767.md) |  | |
@@ -102,6 +104,7 @@
 | 861 | [翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/861.py) | 中等 |  |  | |
 | 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/922.py) | 简单 | | 数组、排序 | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
+| 947 | [移除最多的同行或同列石头](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column/) |  | 中等 | note | DFS、并查集 | |
 | 973 | [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/973.py) | 中等 | | 排序 | |
 | 976 | [三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/976.py) | 简单 |  |  | |
 | 1018 | [可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1018.py) | 简单 | | 数组 | |
@@ -110,6 +113,7 @@
 | 1122 | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1122.py) | 简单 | note | 数组、排序 | |
 | 1202 | [交换字符串中的元素](https://leetcode-cn.com/problems/smallest-string-with-swaps/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1202.py) | 中等 |  | 图、并查集 | |
 | 1203 | [项目管理](https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies/) | giveup | 困难 |  | 图、DFS | |
+| 1232 | [缀点成线](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1232.py) | 简单 | | 数组 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
 | 1370 | [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1370.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1370.md) | 字符串、排序 | |
 
