@@ -1,40 +1,33 @@
 from typing import List
 import collections
 
-class Node:
-    def __init__(self, data):
-        self.data = data
+"""解法：并查集
+- 时间复杂度：O(nα(n))。其中 α 为 Ackermann 函数的反函数。
+- 空间复杂度：O(n)
+"""
+class DisjointSetUnion:
+    def __init__(self, n):
+        self.n = n
+        self.rank = [1] * n
+        self.f = list(range(n))
+    
+    def find(self, x: int) -> int:
+        if self.f[x] == x:
+            return x
+        self.f[x] = self.find(self.f[x])
+        return self.f[x]
+    
+    def unionSet(self, x: int, y: int) -> bool:
+        fx, fy = self.find(x), self.find(y)
+        if fx == fy:
+            return False
 
-def makeSet(x):
-    """
-    make x as a set.
-    """
-    # rank is the distance from x to its' parent
-    # root's rank is 0
-    x.rank = 0
-    x.parent = x
-
-def unionSet(x, y):
-    """
-    union two sets.
-    set with bigger rank should be parent, so that the
-    disjoint set tree will be more flat.
-    """
-    x, y = findSet(x), findSet(y)
-    if x.rank > y.rank:
-        y.parent = x
-    else:
-        x.parent = y
-        if x.rank == y.rank:
-            y.rank += 1
-
-def findSet(x):
-    """
-    return the parent of x
-    """
-    if x != x.parent:
-        x.parent = findSet(x.parent)
-    return x.parent
+        if self.rank[fx] < self.rank[fy]:
+            fx, fy = fy, fx
+        
+        self.rank[fx] += self.rank[fy]
+        self.f[fy] = fx
+        return True
 
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
@@ -49,23 +42,20 @@ class Solution:
                     emailToName[email] = name
         # print(emailToIndex)
         # print(emailToName)
-
-        vertex = [ Node(i) for i in range(len(emailToIndex)) ]
-        for v in vertex:
-            makeSet(v)
         
+        dsu = DisjointSetUnion(len(emailToIndex))
         for account in accounts:
             firstIndex = emailToIndex[account[1]]
             for email in account[2:]:
-                unionSet(vertex[firstIndex], vertex[emailToIndex[email]])
+                dsu.unionSet(firstIndex, emailToIndex[email])
         
         indexToEmails = collections.defaultdict(list)
         for email, index in emailToIndex.items():
-            index = findSet(vertex[index])
+            index = dsu.find(index)
             indexToEmails[index].append(email)
         # print(indexToEmails)
         
-        ans = []
+        ans = list()
         for emails in indexToEmails.values():
             ans.append([emailToName[emails[0]]] + sorted(emails))
         return ans

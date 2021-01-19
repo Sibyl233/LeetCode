@@ -13,42 +13,26 @@
 - 按秩合并
 
 ```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-
-def makeSet(x):
-    """
-    make x as a set.
-    """
-    # rank is the distance from x to its' parent
-    # root's rank is 0
-    x.rank = 0
-    x.parent = x
-
-def findSet(x):
-    """
-    return the parent of x
-    """
-    if x != x.parent:
-        x.parent = findSet(x.parent)
-    return x.parent
-  
-def unionSet(x, y):
-    """
-    union two sets.
-    set with bigger rank should be parent, so that the
-    disjoint set tree will be more flat.
-    """
-    x, y = findSet(x), findSet(y)
-    if x.rank > y.rank:
-        y.parent = x
-    else:
-        x.parent = y
-        if x.rank == y.rank:
-            y.rank += 1
-
-
+class DisjointSetUnion:
+    def __init__(self, n: int):
+        self.n = n
+        self.rank = [1] * n
+        self.f = list(range(n))
+    
+    def find(self, x: int) -> int:
+        if self.f[x] == x:
+            return x
+        self.f[x] = self.find(self.f[x])
+        return self.f[x]
+    
+    def unionSet(self, x: int, y: int):
+        fx, fy = self.find(x), self.find(y)
+        if fx == fy:
+            return
+        if self.rank[fx] < self.rank[fy]:
+            fx, fy = fy, fx
+        self.rank[fx] += self.rank[fy]
+        self.f[fy] = fx
 ```
 
 #### 复杂度
@@ -56,9 +40,16 @@ def unionSet(x, y):
 - 时间复杂度：O(α(n))。其中 α 为阿克曼函数的反函数，其增长极其缓慢，即单次操作的平均运行时间可认为是一个很小的常数。
 - 空间复杂度：O(n)
 
+#### 应用
+
+- [最小生成树](https://oi-wiki.org/graph/mst/)中的 Kruskal 算法
+- [最近公共祖先](https://oi-wiki.org/graph/lca/)中的 Tarjan 算法
+
+####  例题
+
+399、547、684、721、947、1202、1584
+
 #### 参考
 
 https://oi-wiki.org/ds/dsu/
-
-https://github.com/TheAlgorithms/Python/tree/master/data_structures/disjoint_set
 

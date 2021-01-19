@@ -1,62 +1,47 @@
+from typing import List
 import collections
 
 """解法：并查集
 - 时间复杂度：O((M+N)α(N)+NlogN)。其中 α 为 Ackermann 函数的反函数。
 - 空间复杂度：O(N)
 """
-class Node:
-    def __init__(self, data):
-        self.data = data
-
-def makeSet(x):
-    """
-    make x as a set.
-    """
-    # rank is the distance from x to its' parent
-    # root's rank is 0
-    x.rank = 0
-    x.parent = x
-
-def unionSet(x, y):
-    """
-    union two sets.
-    set with bigger rank should be parent, so that the
-    disjoint set tree will be more flat.
-    """
-    x, y = findSet(x), findSet(y)
-    if x.rank > y.rank:
-        y.parent = x
-    else:
-        x.parent = y
-        if x.rank == y.rank:
-            y.rank += 1
-
-def findSet(x):
-    """
-    return the parent of x
-    """
-    if x != x.parent:
-        x.parent = findSet(x.parent)
-    return x.parent
-
+class DisjointSetUnion:
+    def __init__(self, n: int):
+        self.n = n
+        self.rank = [1] * n
+        self.f = list(range(n))
+    
+    def find(self, x: int) -> int:
+        if self.f[x] == x:
+            return x
+        self.f[x] = self.find(self.f[x])
+        return self.f[x]
+    
+    def unionSet(self, x: int, y: int):
+        fx, fy = self.find(x), self.find(y)
+        if fx == fy:
+            return
+        if self.rank[fx] < self.rank[fy]:
+            fx, fy = fy, fx
+        self.rank[fx] += self.rank[fy]
+        self.f[fy] = fx
+        
 class Solution:
-    def smallestStringWithSwaps(self, s: str, pairs: [int]) -> str:
-        vertex = [ Node(i) for i in range(len(s)) ]
-        for v in vertex:
-            makeSet(v)
+    def smallestStringWithSwaps(self, s: str, pairs: List[List[int]]) -> str:
+        dsu = DisjointSetUnion(len(s))
         for x, y in pairs:
-            unionSet(vertex[x], vertex[y])
+            dsu.unionSet(x, y)
         
         mp = collections.defaultdict(list)
         for i, ch in enumerate(s):
-            mp[findSet(vertex[i])].append(ch)
+            mp[dsu.find(i)].append(ch)
         
         for vec in mp.values():
             vec.sort(reverse=True)
         
-        ans = []
+        ans = list()
         for i in range(len(s)):
-            x = findSet(vertex[i])
+            x = dsu.find(i)
             ans.append(mp[x][-1])
             mp[x].pop()
         

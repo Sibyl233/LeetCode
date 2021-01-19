@@ -24,6 +24,7 @@
 | JZ22    | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ22.py) | 简单   |                                                              | 链表           |          |
 | JZ24    | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ24.py) | 简单   |                                                              | 链表           | 206      |
 | JZ25    | [合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ25.py) | 简单   |                                                              | 链表           |          |
+| JZ26    | [树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ26.py) | 简单   |                                                              | 树             |          |
 | JZ27    | [二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ27.py) | 简单   |                                                              | 树             |          |
 | JZ28    | [对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ28.py) | 简单   |                                                              | 树             | 101      |
 | JZ29    | [顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ29.py) | 简单   |                                                              | 数组           | 54       |
@@ -94,7 +95,7 @@
 | 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/649.py) | 中等 |  | 堆、队列 | |
 | 684 | [冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/684.py) | 中等 | | 树、并查集 | |
 | 714 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/714.py) | 中等 | | 数组动态规划、贪心 | |
-| 721 | [账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/721.py) | 中等 | |  | |
+| 721 | [账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/721.py) | 中等 | | 并查集 | |
 | 738 | [单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | note | 贪心 | |
 | 746 | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/746.py) | 简单 |  | 动态规划 | |
 | 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/767.md) |  | |
@@ -116,6 +117,7 @@
 | 1232 | [缀点成线](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1232.py) | 简单 | | 数组 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
 | 1370 | [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1370.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1370.md) | 字符串、排序 | |
+| 1584 | [连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1584.py) | 中等 |  | 并查集、最小生成树 | |
 
 
 
