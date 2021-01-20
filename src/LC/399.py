@@ -13,7 +13,7 @@ class Solution:
                 graph[y][x] = 1/v
             else:
                 graph[y] = {x: 1/v}
-        # print(graph)
+        print(graph)
         
         # dfs找寻从s到t的路径并返回结果，结果即叠乘后的边权重
         def dfs(s, t) -> int:

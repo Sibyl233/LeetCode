@@ -3,25 +3,26 @@ from typing import List
 class DisjointSetUnion:
     def __init__(self, n):
         self.n = n
-        self.rank = [1] * n
-        self.f = list(range(n))
+        self.rank = [1] * n      # 初始化子树的大小为1
+        self.pa = list(range(n)) # 记录某个人的父母是谁
     
     def find(self, x: int) -> int:
-        if self.f[x] == x:
-            return x
-        self.f[x] = self.find(self.f[x])
-        return self.f[x]
+        if x != self.pa[x]:                    # x不是自身的父母，即x不是该集合的代表
+            self.pa[x] = self.find(self.pa[x]) # 查找x的祖先直到找到代表,
+        return self.pa[x]                      # 顺带路径压缩
     
     def unionSet(self, x: int, y: int) -> bool:
-        fx, fy = self.find(x), self.find(y)
-        if fx == fy:
-            return False
-
-        if self.rank[fx] < self.rank[fy]:
-            fx, fy = fy, fx
+        xx, yy = self.find(x), self.find(y)
         
-        self.rank[fx] += self.rank[fy]
-        self.f[fy] = fx
+        if xx == yy:
+            return False
+        
+        if self.rank[xx] > self.rank[yy]: # 保证小的合到大的
+            xx, yy = yy, xx
+        
+        self.pa[xx] = yy
+        self.rank[yy] += self.rank[xx]
+        
         return True
 
 class Solution:
