@@ -34,3 +34,31 @@ def bisectRight(a, x):
         else: left = mid+1
     return left
 
+def bisectLeftBound(a, x):
+    """Return the index of leftmost x if x exist.
+    """
+    left, right = 0, len(a)
+    while left < right:
+        mid = (left+right)//2
+        if a[mid] < x: left = mid+1
+        else: right = mid
+    if left == len(a):
+        return -1
+    return left if a[left] == x else -1
+
+def bisectRightBound(a, x):
+    """Return the index of rightmost x if x exist.
+    """
+    left, right = 0, len(a)
+    while left < right:
+        mid = (left+right)//2
+        if a[mid] > x: right = mid
+        else: left = mid+1
+    # if left == len(a): 
+    #     return -1
+    return left-1 if a[left-1] == x else -1
+
+a = [2,2,3,3,4]
+x = 3
+print(bisectLeftBound(a,x))
+

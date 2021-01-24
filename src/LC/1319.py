@@ -1,7 +1,7 @@
 from typing import List
 
 """解法2：并查集
-- 时间复杂度：O(nα(n))。其中 α 为 Ackermann 函数的反函数。
+- 时间复杂度：O(mα(n))。其中 m 是数组 onnections 的长度, α 为 Ackermann 函数的反函数。
 - 空间复杂度：O(n)
 """
 class DisjointSetUnion:
@@ -9,7 +9,7 @@ class DisjointSetUnion:
         self.n = n
         self.rank = [1] * n      # 初始化子树的大小为1
         self.pa = list(range(n)) # 记录某个人的父母是谁
-        self.setCount = n
+        self.setCount = n        # 记录连通分量数
     
     def find(self, x: int) -> int:
         if x != self.pa[x]:                    # x不是自身的父母，即x不是该集合的代表
@@ -27,23 +27,23 @@ class DisjointSetUnion:
         
         self.pa[xx] = yy
         self.rank[yy] += self.rank[xx]
-        self.setCount -= 1
+        self.setCount -= 1                # 每进行一次合并，连通分量数减1
         
         return True
 
 class Solution:
-    def removeStones(self, stones: List[List[int]]) -> int:
-        dsu = DisjointSetUnion(2*10001)
+    def makeConnected(self, n: int, connections: List[List[int]]) -> int:
+        if len(connections) < n - 1:
+            return -1
         
-        for x, y in stones:
-            dsu.unionSet(x, y + 10001)
+        dsu = DisjointSetUnion(n)
+        for x, y in connections:
+            dsu.unionSet(x, y)
         
-        root = set()
-        for x, _ in stones:
-            root.add(dsu.find(x))
-        
-        return len(stones) - len(root)      
+        return dsu.setCount - 1
 
 if __name__ == "__main__":
-    stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]
-    print(Solution().removeStones(stones)) # 5
+    n = 6
+    connections = [[0,1],[0,2],[0,3],[1,2],[1,3]]
+    print(Solution().makeConnected(n, connections)) # 2
+
