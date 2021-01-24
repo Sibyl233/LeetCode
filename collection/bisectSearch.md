@@ -1,4 +1,6 @@
-#### 二分查找一个数
+[TOC]
+
+### 二分查找一个数
 
 ```python
 def bisectSearch(a, x):
@@ -28,9 +30,7 @@ def bisectSearch(a, x):
    - 当发现 a[mid] 不是要找的 x 时，下一步要搜索的区间应该为 [left, mid-1] 或 [mid+1, right] ，正确对应搜索区间的缩小方式。
    - 当 x 存在时最后会有 `left == right` 此时返回 mid 即为目标 x 的索引；当 x 不存在时根据终止条件有 `left > right` 意味着没有找到目标值，返回 -1。
 
-
-
-#### 二分查找左（右）侧插入点
+### 二分查找左（右）侧插入点
 
 ```python
 def bisectLeft(a, x):
@@ -66,7 +66,7 @@ def bisectRight(a, x):
    - 当 a[mid] 被检测过后，下一步要搜索的区间应该为 [left, mid) 或 [mid+1, right) ，正确对应搜索区间的缩小方式。
    - 为什么查找左（右）侧插入点都返回 left ？因为终止条件为 `left == right `，所以返回哪个都一样。
 
-#### 二分查找左（右）边界
+### 二分查找左（右）边界
 
 ```python
 def bisectLeftBound(a, x):
