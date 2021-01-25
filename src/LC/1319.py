@@ -1,7 +1,7 @@
 from typing import List
 
 """解法2：并查集
-- 时间复杂度：O(mα(n))。其中 m 是数组 onnections 的长度, α 为 Ackermann 函数的反函数。
+- 时间复杂度：O(mα(n))。其中 m 是数组 connections 的长度, α 为 Ackermann 函数的反函数。
 - 空间复杂度：O(n)
 """
 class DisjointSetUnion:

@@ -1,4 +1,5 @@
 from typing import List
+
 """解法：二分查找
 - 时间复杂度：O(logN)
 - 空间复杂度：O(1)

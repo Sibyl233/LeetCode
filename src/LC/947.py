@@ -9,7 +9,6 @@ class DisjointSetUnion:
         self.n = n
         self.rank = [1] * n      # 初始化子树的大小为1
         self.pa = list(range(n)) # 记录某个人的父母是谁
-        self.setCount = n
     
     def find(self, x: int) -> int:
         if x != self.pa[x]:                    # x不是自身的父母，即x不是该集合的代表
@@ -27,7 +26,6 @@ class DisjointSetUnion:
         
         self.pa[xx] = yy
         self.rank[yy] += self.rank[xx]
-        self.setCount -= 1
         
         return True
 
