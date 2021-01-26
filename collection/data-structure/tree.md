@@ -7,14 +7,12 @@
 #### 概念
 
 - 树的节点类型：根节点、中间节点、叶节点。
-
-> Tip：在树相关的题目中多用递归来实现某些逻辑，而递归的出口条件往往是到达叶节点的时候。
-
 - 树的节点关系：父子关系、兄弟关系、祖孙关系
 - 常用定义：子树、节点深度、节点距离
-- 树的分类：二叉树（满二叉树、完全二叉树）、多叉树
-
-> Tip：掌握二叉树即可。
+- 树的类型：**二叉树**、多叉树
+  - 满二叉树
+  - 完全二叉树
+  - 二叉搜索树
 
 #### 实现
 
@@ -29,7 +27,7 @@ class TreeNode:
         self.right = None # 右子节点
 ```
 
-建立一棵如下二叉树
+构建一棵如下二叉树
 
 ```
     3
@@ -56,9 +54,73 @@ n2.right = n5
 
 #### 常用操作
 
-三种遍历
+##### DFS 实现前/中/后序遍历
+
+- 前序遍历：根 → 左子树 → 右子树
+- 中序遍历：左子树 → 根 → 右子树
+- 后序遍历：左子树 → 右子树 → 根
+
+> Tip：在树相关的题目中多用递归来实现某些逻辑，而递归的出口条件往往是到达叶节点的时候。
+
+```python
+def preOrder(root: TreeNode) -> List[int]:
+    def dfs(node):
+        if node is None: 
+            return
+        # 前序遍历
+        res.append(node.val)
+        dfs(node.left)
+        dfs(node.right)
+    
+    res = []
+    dfs(root)
+    return res
+    
+
+def inOrder(root: TreeNode) -> List[int]:
+    def dfs(node):
+        if node is None: 
+            return
+        # 中序遍历
+        dfs(node.left)
+        res.append(node.val)
+        dfs(node.right)
+    
+    res = []
+    dfs(root)
+    return res
+
+def postOrder(root: TreeNode) -> List[int]:
+    def dfs(node):
+        if node is None: 
+            return
+        # 后序遍历
+        dfs(node.left)
+        dfs(node.right)
+        res.append(node.val)
+    
+    res = []
+    dfs(root)
+    return res
+```
+
+##### BFS 实现层次遍历
+
+```python
+import collections
+def levelOrder(root: TreeNode) -> List[int]:
+    res = []
+    queue = collections.deque()
+    queue.append(root)
+    while queue:
+        node = queue.popleft()
+        res.append(node.val)
+        if node.left: queue.append(node.left)
+        if node.right: queue.append(node.right)
+    return res
+```
 
 
 
-
+#### 题目
 
