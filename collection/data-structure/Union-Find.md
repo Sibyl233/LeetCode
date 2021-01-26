@@ -55,6 +55,7 @@ class DisjointSetUnion:
 
 - [最小生成树](https://oi-wiki.org/graph/mst/)中的 Kruskal 算法
 - [最近公共祖先](https://oi-wiki.org/graph/lca/)中的 Tarjan 算法
+- DFS的替代算法
 
 ####  例题
 
