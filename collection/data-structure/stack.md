@@ -1,4 +1,4 @@
-### 栈和队列
+## 栈和队列
 
 #### 栈
 
@@ -20,14 +20,20 @@ stack.pop()     # 元素 1 出栈
 「队列」是一种具有 **先入先出** 特点的抽象数据结构。常用操作：入队 `push()`和出队 `pop()`。
 
 ```python
-# 使用双端队列 collections.deque 实现
+# 使用 collections.deque 实现
 from collections import deque
 queue = deque()
 
-# 入队和出队
+# 右入左出
 queue.append(1) # 元素 1 入队
 queue.append(2) # 元素 2 入队
 queue.popleft() # 元素 1 出队
 queue.popleft() # 元素 2 出队
+
+# 左入右出（双端队列的情况）
+queue.appendleft(3) # 元素 3 入队
+queue.appendleft(4) # 元素 4 入队
+queue.pop()         # 元素 3 出队
+queue.pop()         # 元素 4 出队
 ```
 

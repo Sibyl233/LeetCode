@@ -1,4 +1,4 @@
-# LeetCode
+## 题解
 
 ### 剑指Offer
 
@@ -33,6 +33,8 @@
 | JZ32-I   | [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ32-I.py) | 中等   |                                                              | 树、BFS        |          |
 | JZ32-II  | [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ32-II.py) | 简单   |                                                              | 树、BFS        |          |
 | JZ32-III | [从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ32-III.py) | 中等   |                                                              | 树、BFS        |          |
+| JZ33     | [二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ33.py) | 中等   |                                                              | 树             |          |
+| JZ37     | [序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ37.py) | 困难   |                                                              | 树             | 297      |
 | JZ48     | [最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ48.py) | 简单   |                                                              | 数组           | 3        |
 | JZ50     | [第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ50.py) | 简单   |                                                              | 哈希表         |          |
 | JZ52     | [两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ52.py) | 简单   |                                                              | 链表           | 160      |
@@ -130,6 +132,7 @@
 | 1319 | [连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1319.py) | 中等 | | DFS、并查集 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
 | 1370 | [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1370.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1370.md) | 字符串、排序 | |
+| 1579 | [保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1579.py) | 困难 |  | 图、并查集 | |
 | 1584 | [连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1584.py) | 中等 |  | 并查集、最小生成树 | |
 
 

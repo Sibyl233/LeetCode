@@ -2,7 +2,7 @@ from binarytree import Node as TreeNode
 from typing import List
 import collections
 
-"""解法1：层序遍历+双端队列
+"""解法1：层次遍历+双端队列
 - 时间复杂度：O(N)
 - 空间复杂度：O(N)
 """
@@ -23,7 +23,7 @@ import collections
 #             res.append(list(tmp))
 #         return res
 
-"""解法2：层序遍历+倒序
+"""解法2：层次遍历+倒序
 - 时间复杂度：O(N)
 - 空间复杂度：O(N)
 """
