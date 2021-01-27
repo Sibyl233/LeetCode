@@ -7,21 +7,21 @@ def dfs(graph: dict, start: str):
 
     while stack:
         vertice = stack.pop()
-        if vertice not in visited:
+        if vertice in visited:
             print(vertice, end=" ")
             visited.add(vertice)
             for neighbor in reversed(graph[vertice]):
                 stack.append(neighbor)
 
 """递归实现"""
-visited = set()
-def dfs(graph: dict, vertice: str):
-    if vertice not in visited:
-        print(vertice, end = " ")
-        visited.add(vertice)
-    for neighbor in graph[vertice]:
-        if neighbor not in visited:
-            dfs(graph, neighbor)
+# visited = set()
+# def dfs(graph: dict, vertice: str):
+#     if vertice not in visited:
+#         print(vertice, end = " ")
+#         visited.add(vertice)
+#     for neighbor in graph[vertice]:
+#         if neighbor not in visited:
+#             dfs(graph, neighbor)
 
 if __name__ == "__main__":
     G = {

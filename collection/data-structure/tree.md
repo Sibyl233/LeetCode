@@ -128,5 +128,10 @@ def levelOrder(root: TreeNode) -> List[int]:
 
 
 
+### 参考
+
+1. https://leetcode-cn.com/leetbook/detail/high-frequency-algorithm-exercise/
+2. https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/50e446/
+
 
 
