@@ -79,7 +79,6 @@ def preOrder(root: TreeNode) -> List[int]:
     res = []
     dfs(root)
     return res
-    
 
 def inOrder(root: TreeNode) -> List[int]:
     def dfs(node):

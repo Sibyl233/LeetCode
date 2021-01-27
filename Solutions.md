@@ -137,7 +137,7 @@
 
 
 
-### 参考：
+### 参考
 
 1. https://github.com/luliyucoordinate/Leetcode
 
