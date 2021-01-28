@@ -10,8 +10,8 @@
 ### 数据结构
 
 - 线性数据结构
-  - 数组
   - 字符串
+  - 数组
   - 链表
   - 栈
   - 队列
@@ -57,6 +57,5 @@
 #### 参考
 
 1. https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/50e446/
-
 2. https://pegasuswang.github.io/python_data_structures_and_algorithms/
 
