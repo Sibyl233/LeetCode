@@ -36,6 +36,7 @@
 | JZ33     | [二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ33.py) | 中等   |                                                              | 树             |          |
 | JZ34     | [二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ34.py) | 中等   |                                                              | 树、DFS        | 113      |
 | JZ37     | [序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ37.py) | 困难   |                                                              | 树             | 297      |
+| JZ42     | [连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ42.py) | 简单   |                                                              | 动态规划       | 53       |
 | JZ48     | [最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ48.py) | 简单   |                                                              | 数组           | 3        |
 | JZ50     | [第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ50.py) | 简单   |                                                              | 哈希表         |          |
 | JZ52     | [两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ52.py) | 简单   |                                                              | 链表           | 160      |
@@ -57,6 +58,7 @@
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/31.py) | 中等 | note | 数组 |  |
 | 33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | 未完 | 中等 |  | 数组、二分查找 | 81 |
 | 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/34.py) | 中等 |  | 数组、查找 | |
+| 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) |  | 困难 | | 双指针、韦恩图 | |
 | 49 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/49.py) | 中等 | note |  | |
 | 57   | [插入区间](https://leetcode-cn.com/problems/insert-interval/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/57.py) | 困难   | note | 数组、排序 |  |
 | 62 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/62.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/62.md) | 数组、动态规划 | 63 etc. |
@@ -107,6 +109,8 @@
 | 547 | [省份数量](https://leetcode-cn.com/problems/number-of-provinces/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/547.py) | 中等 |  | 图、DFS、BFS、并查集 | |
 | 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/605.py) | 简单 |  | 数组、贪心算法 | |
 | 628 | [三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/628.py) | 简单 | | 数组 | |
+| 643 | [子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/643.py) | 简单 | | 数组、滑动窗口 | 644 |
+| 644 | [子数组最大平均数 II](https://leetcode-cn.com/problems/maximum-average-subarray-ii/) | ？ | 困难 | | 数组、滑动窗口、二分查找 | 643 |
 | 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/649.py) | 中等 |  | 堆、队列 | |
 | 674 | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/674.py) | 简单 | | 数组 | |
 | 684 | [冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/684.py) | 中等 | | 树、并查集 | |
