@@ -131,6 +131,7 @@
 | 959 | [由斜杠划分区域](https://leetcode-cn.com/problems/regions-cut-by-slashes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/959.py) | 中等 | note | 并查集 | |
 | 973 | [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/973.py) | 中等 | | 排序 | |
 | 976 | [三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/976.py) | 简单 |  |  | |
+| 978 | [最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/978.py) | 中等 | | 双指针、动态规划 | |
 | 989 | [数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/989.py) | 简单 | | 数组 | |
 | 1018 | [可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1018.py) | 简单 | | 数组 | |
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1030.py) | 简单 | | 排序 | |
@@ -139,6 +140,7 @@
 | 1128 | [等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1128.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1128.md) | 数组、计数 | |
 | 1202 | [交换字符串中的元素](https://leetcode-cn.com/problems/smallest-string-with-swaps/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1202.py) | 中等 |  | 图、并查集 | |
 | 1203 | [项目管理](https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies/) | giveup | 困难 |  | 图、DFS | |
+| 1208 | [尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1208.py) | 中等 | | 数组 | |
 | 1232 | [缀点成线](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1232.py) | 简单 | | 数组 | |
 | 1319 | [连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1319.py) | 中等 | | DFS、并查集 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
