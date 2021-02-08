@@ -112,6 +112,7 @@
 | 643 | [子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/643.py) | 简单 | | 数组、滑动窗口 | 644 |
 | 644 | [子数组最大平均数 II](https://leetcode-cn.com/problems/maximum-average-subarray-ii/) | ？ | 困难 | | 数组、滑动窗口、二分查找 | 643 |
 | 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/649.py) | 中等 |  | 堆、队列 | |
+| 665 | [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/665.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/665.md) | 数组、贪心 | |
 | 674 | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/674.py) | 简单 | | 数组 | |
 | 684 | [冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/684.py) | 中等 | | 树、并查集 | |
 | 714 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/714.py) | 中等 | | 数组动态规划、贪心 | |
