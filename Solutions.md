@@ -100,6 +100,7 @@
 | 402 | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/402.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/402.md) | 栈、贪心算法 | 316、321 |
 | 406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/406.py) | 中等 |  | 排序、贪心算法 | |
 | 424 | [替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/424.py) | 简单 | note | 双指针 | |
+| 448 | [找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/448.py) | 简单 |  | 原地修改数组 | 41、136、442 |
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
 | 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | note |  | 18 |
 | 480 | [滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/480.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/480.md) | 堆、双指针、二分法 | 295 |
@@ -107,6 +108,7 @@
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/509.py) | 简单 |  | | JZ10 |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
 | 547 | [省份数量](https://leetcode-cn.com/problems/number-of-provinces/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/547.py) | 中等 |  | 图、DFS、BFS、并查集 | |
+| 567 | [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/567.py) | 中等 |  | 滑动窗口 | |
 | 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/605.py) | 简单 |  | 数组、贪心算法 | |
 | 628 | [三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/628.py) | 简单 | | 数组 | |
 | 643 | [子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/643.py) | 简单 | | 数组、滑动窗口 | 644 |
@@ -115,11 +117,13 @@
 | 665 | [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/665.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/665.md) | 数组、贪心 | |
 | 674 | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/674.py) | 简单 | | 数组 | |
 | 684 | [冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/684.py) | 中等 | | 树、并查集 | |
+| 703 | [数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/703.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/703.md) | 堆、设计 | |
 | 714 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/714.py) | 中等 | | 数组动态规划、贪心 | |
 | 721 | [账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/721.py) | 中等 | | 并查集 | |
 | 724 | [寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/724.py) | 简单 | | 数组 | |
 | 738 | [单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | note | 贪心 | |
 | 746 | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/746.py) | 简单 |  | 动态规划 | |
+| 765 | [情侣牵手](https://leetcode-cn.com/problems/couples-holding-hands/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/765.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/765.md) | 位运算、并查集 | |
 | 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/767.md) |  | |
 | 830 | [较大分组的位置](https://leetcode-cn.com/problems/positions-of-large-groups/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/830.py) | 简单 |  | 数组 | |
 | 842 | [将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/842.py) | 中等 | note | 回溯 | |
@@ -146,6 +150,7 @@
 | 1319 | [连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1319.py) | 中等 | | DFS、并查集 | |
 | 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1356.py) | 简单 | | 排序、位运算 | |
 | 1370 | [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1370.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1370.md) | 字符串、排序 | |
+| 1423 | [可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1423.py) | 中等 |  | 数组、滑动窗口 | |
 | 1579 | [保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1579.py) | 困难 |  | 图、并查集 | |
 | 1584 | [连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1584.py) | 中等 |  | 并查集、最小生成树 | |
 
