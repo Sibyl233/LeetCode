@@ -104,10 +104,12 @@
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
 | 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | note |  | 18 |
 | 480 | [滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/480.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/480.md) | 堆、双指针、二分法 | 295 |
+| 485 | [最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/485.py) | 简单 |  | 数组 |  |
 | 493 | [翻转对](https://leetcode-cn.com/problems/reverse-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/493.py) | 困难 | note | | JZ51 |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/509.py) | 简单 |  | | JZ10 |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
 | 547 | [省份数量](https://leetcode-cn.com/problems/number-of-provinces/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/547.py) | 中等 |  | 图、DFS、BFS、并查集 | |
+| 561 | [数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/561.py) | 简单 | | 数组 | |
 | 567 | [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/567.py) | 中等 |  | 滑动窗口 | |
 | 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/605.py) | 简单 |  | 数组、贪心算法 | |
 | 628 | [三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/628.py) | 简单 | | 数组 | |
@@ -117,7 +119,7 @@
 | 665 | [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/665.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/665.md) | 数组、贪心 | |
 | 674 | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/674.py) | 简单 | | 数组 | |
 | 684 | [冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/684.py) | 中等 | | 树、并查集 | |
-| 703 | [数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/703.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/703.md) | 堆、设计 | |
+| 703 | [数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/703.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/703.md) | 堆、设计、topK | |
 | 714 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/714.py) | 中等 | | 数组动态规划、贪心 | |
 | 721 | [账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/721.py) | 中等 | | 并查集 | |
 | 724 | [寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/724.py) | 简单 | | 数组 | |
@@ -138,6 +140,7 @@
 | 976 | [三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/976.py) | 简单 |  |  | |
 | 978 | [最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/978.py) | 中等 | | 双指针、动态规划 | |
 | 989 | [数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/989.py) | 简单 | | 数组 | |
+| 992 | [K 个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/992.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/992.md) | 滑动窗口 | |
 | 1018 | [可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1018.py) | 简单 | | 数组 | |
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1030.py) | 简单 | | 排序 | |
 | 1046 | [最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1046.py) | 简单 | | 堆、贪心算法 | |
