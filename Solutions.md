@@ -110,6 +110,7 @@
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
 | 547 | [省份数量](https://leetcode-cn.com/problems/number-of-provinces/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/547.py) | 中等 |  | 图、DFS、BFS、并查集 | |
 | 561 | [数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/561.py) | 简单 | | 数组 | |
+| 566 | [重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/566.py) | 简单 |  | 数组 | |
 | 567 | [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/567.py) | 中等 |  | 滑动窗口 | |
 | 605 | [种花问题](https://leetcode-cn.com/problems/can-place-flowers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/605.py) | 简单 |  | 数组、贪心算法 | |
 | 628 | [三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/628.py) | 简单 | | 数组 | |
