@@ -104,7 +104,8 @@
 | 452 | [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/452.py) | 中等 | | 排序、贪心算法 | |
 | 454 | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/454.py) | 中等 | note |  | 18 |
 | 480 | [滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/480.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/480.md) | 堆、双指针、二分法 | 295 |
-| 485 | [最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/485.py) | 简单 |  | 数组 |  |
+| 485 | [最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/485.py) | 简单 |  | 数组 | 487、1004 |
+| 487 | [最大连续1的个数 II](https://leetcode-cn.com/problems/max-consecutive-ones-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/487.py) | 中等 | | 滑动窗口、无限流 | 485、1004 |
 | 493 | [翻转对](https://leetcode-cn.com/problems/reverse-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/493.py) | 困难 | note | | JZ51 |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/509.py) | 简单 |  | | JZ10 |
 | 514 | [自由之路](https://leetcode-cn.com/problems/freedom-trail/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/514.py) | 困难 | note | 动态规划、DFS | |
@@ -142,6 +143,8 @@
 | 978 | [最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/978.py) | 中等 | | 双指针、动态规划 | |
 | 989 | [数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/989.py) | 简单 | | 数组 | |
 | 992 | [K 个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/992.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/992.md) | 滑动窗口 | |
+| 995 | [K 连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/995.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/995.md) | 滑动窗口、模拟 | |
+| 1004 | [最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1004.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1004.md) | 滑动窗口 | 485、487 |
 | 1018 | [可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1018.py) | 简单 | | 数组 | |
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1030.py) | 简单 | | 排序 | |
 | 1046 | [最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1046.py) | 简单 | | 堆、贪心算法 | |

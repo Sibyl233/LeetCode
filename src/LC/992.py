@@ -10,16 +10,16 @@ class Solution:
         
         def atMostK(A, K):
             left = right = 0
-            cnt = collections.Counter()
+            counter = collections.Counter()
             distinct = 0
             res = 0
             while right < len(A):
-                if cnt[A[right]] == 0:
+                if counter[A[right]] == 0:
                     distinct += 1
-                cnt[A[right]] += 1
+                counter[A[right]] += 1
                 while distinct > K:
-                    cnt[A[left]] -= 1
-                    if cnt[A[left]] == 0:
+                    counter[A[left]] -= 1
+                    if counter[A[left]] == 0:
                         distinct -= 1
                     left += 1
                 res += right - left + 1 # 注意
