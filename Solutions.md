@@ -43,10 +43,13 @@
 | JZ53-I   | [在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ53-I.py) | 简单   |                                                              | 数组、二分查找 | 34       |
 | JZ53-II  | [0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ53-II.py) | 简单   |                                                              | 数组、二分查找 |          |
 | JZ54     | [二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ54.py) | 简单   |                                                              | 树             |          |
+| JZ55-I   | [二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ55-I.py) | 简单   |                                                              | 树             | 104      |
 | JZ58-I   | [翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ58-I.py) | 简单   |                                                              | 字符串         | 151      |
 | JZ59-I   | [滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-I.py) | 简单   |                                                              | 队列           | 239      |
 | JZ59-II  | [队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-II.py) | 中等   |                                                              | 栈             | 155      |
 | JZ63     | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ63.py) | 简单   |                                                              | 数组、动态规划 | 121      |
+| JZ68-I   | [二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ68-I.py) | 简单   |                                                              | 树、迭代、递归 | 235      |
+| JZ68-II  | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ68-II.py) | 简单   | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/JZ/JZ68-II.md) | 树、递归       | 236      |
 
 
 
@@ -65,6 +68,8 @@
 | 81 | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | 未完 | 中等 |  | 数组、二分查找 | 33 |
 | 86 | [分隔链表](https://leetcode-cn.com/problems/partition-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/86.py) | 中等 | | 链表、双指针 |  |
 | 103 | [二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/103.py) | 中等 | | 树 |  |
+| 105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/105.py) | 中等 | | 树 | |
+| 106 | [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/106.py) | 中等 | | 树 | |
 | 118 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/118.py) | 简单 | | 数组 | 119 |
 | 119 | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/119.py) | 简单 | | 数组 | 118 |
 | 121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ63.py) | 简单 | | 数组、动态规划 |  |
@@ -84,6 +89,7 @@
 | 217 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/217.py) | 简单 |  | 数组 | |
 | 222 | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/222.py) | 中等 |  | 树、二分查找 |  |
 | 228 | [汇总区间](https://leetcode-cn.com/problems/summary-ranges/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/228.py) | 简单 | | 数组 | |
+| 236 | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/236.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/JZ/JZ68-II.md) | 树 | JZ68-II |
 | 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/239.py) | 困难 | | 堆 | |
 | 242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/242.py) | 简单 |  |  |  |
 | 290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/290.py) | 简单 | | 字符串 | |
@@ -132,9 +138,11 @@
 | 766 | [托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/766.py) | 简单 |  | 切片 | |
 | 767 | [重构字符串](https://leetcode-cn.com/problems/reorganize-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/767.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/767.md) |  | |
 | 830 | [较大分组的位置](https://leetcode-cn.com/problems/positions-of-large-groups/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/830.py) | 简单 |  | 数组 | |
+| 832 | [翻转图像](https://leetcode-cn.com/problems/flipping-an-image/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/832.py) | 简单 | | 位运算 | |
 | 842 | [将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/842.py) | 中等 | note | 回溯 | |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/860.py) | 简单 |  |  | |
 | 861 | [翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/861.py) | 中等 |  |  | |
+| 867 | [转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/867.py) | 简单 | | 数组 | |
 | 888 | [公平的糖果棒交换](https://leetcode-cn.com/problems/fair-candy-swap/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/888.py) | 简单 | | 哈希表 | |
 | 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/922.py) | 简单 | | 数组、排序 | |
 | 941  | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/941.py) | 简单   |      | 数组 |  |
@@ -150,6 +158,7 @@
 | 1018 | [可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1018.py) | 简单 | | 数组 | |
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1030.py) | 简单 | | 排序 | |
 | 1046 | [最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1046.py) | 简单 | | 堆、贪心算法 | |
+| 1052 | [爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1052.py) | 中等 | | 滑动窗口 | |
 | 1122 | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1122.py) | 简单 | note | 数组、排序 | |
 | 1128 | [等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1128.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1128.md) | 数组、计数 | |
 | 1202 | [交换字符串中的元素](https://leetcode-cn.com/problems/smallest-string-with-swaps/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1202.py) | 中等 |  | 图、并查集 | |

@@ -2,7 +2,7 @@
 
 ### 定义
 
-在单链表中，每个节点仅有一个后继节点，当节点有 **多个后继节点**，但 **只有一个前驱节点** 的时候，就变成了一棵「树」。
+在单链表中，每个节点仅有一个后继节点，当节点有**多个后继节点**，但**只有一个前驱节点**的时候，就变成了一棵「树」。
 
 ### 概念
 
@@ -56,7 +56,7 @@ n2.right = n5
 
 #### 前/中/后序遍历
 
-这三种遍历方式都是 **深度优先** 的（总是从根节点先走到底，然后再回溯），因此实现上采用 DFS。
+这三种遍历方式都是**深度优先**的（总是从根节点先走到底，然后再回溯），因此实现上采用 DFS。
 
 - 前序遍历：根 → 左子树 → 右子树
 - 中序遍历：左子树 → 根 → 右子树
@@ -69,8 +69,8 @@ n2.right = n5
 ```python
 def preOrder(root: TreeNode) -> List[int]:
     def dfs(node):
-        if node is None: 
-            return
+        if not node: 
+            return node
         # 前序遍历
         res.append(node.val)
         dfs(node.left)
@@ -82,8 +82,8 @@ def preOrder(root: TreeNode) -> List[int]:
 
 def inOrder(root: TreeNode) -> List[int]:
     def dfs(node):
-        if node is None: 
-            return
+        if not node: 
+            return node
         # 中序遍历
         dfs(node.left)
         res.append(node.val)
@@ -95,8 +95,8 @@ def inOrder(root: TreeNode) -> List[int]:
 
 def postOrder(root: TreeNode) -> List[int]:
     def dfs(node):
-        if node is None: 
-            return
+        if not node: 
+            return node
         # 后序遍历
         dfs(node.left)
         dfs(node.right)
@@ -109,7 +109,7 @@ def postOrder(root: TreeNode) -> List[int]:
 
 #### 层次遍历
 
-层次遍历是一个 **广度优先** 的遍历过程，所以需要将 DFS 替换为 BFS 。
+层次遍历是一个**广度优先**的遍历过程，所以在实现上需要将 DFS 替换为 BFS 。
 
 ```python
 import collections
@@ -122,6 +122,35 @@ def levelOrder(root: TreeNode) -> List[int]:
         res.append(node.val)
         if node.left: queue.append(node.left)
         if node.right: queue.append(node.right)
+    return res
+
+# 逐层打印 V1
+def levelOrder(root: TreeNode) -> List[List[int]]:
+    res = [], 
+    queue = collections.deque()
+    queue.append(root)
+    while queue:
+        tmp = []
+        for _ in range(len(queue)):
+            node = queue.popleft()
+            tmp.append(node.val)
+            if node.left: queue.append(node.left)
+            if node.right: queue.append(node.right)
+        res.append(tmp)
+    return res
+  
+# 逐层打印 V2
+def levelOrder(root: TreeNode) -> List[List[int]]:
+    res = []
+    queue = collections.deque()
+    queue.append((root,0))
+    while queue:
+        node, depth = queue.popleft()
+        if depth == len(res):
+            res.append([])
+        res[depth].append(node.val)
+        if node.left: queue.append((node.left, depth+1))
+        if node.right: queue.append((node.right, depth+1))
     return res
 ```
 
