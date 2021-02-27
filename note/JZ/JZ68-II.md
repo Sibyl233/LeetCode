@@ -29,12 +29,12 @@
 
    **在回溯过程中可认为左右子树 left 和 right 已经算出<u>结果</u>（输出）**，根据结果可以分为以下情况：
 
-   1. 如果 left 和 right 都非空：对于当前 root 来说 p 和 q 在异侧子树中，因此 root 就是它们的最近公共祖先，返回 root；
-   2. 如果 left 和 right 都空：对于当前 root 来说 p 和 q 都不存在于其子树中，所以返回 null；
-   3. 如果 left 为空且 right 非空：对于当前 root 来说 p 和 q 都不存在于其左子树
-      - 若 p 和 q 都存在于右子树，因此 right 就是它们的最近公共祖先，返回 right；
-      - 若 p 和 q 其中一个存在于右子树（不妨假设 q 存在于右子树），由于 left 为空，所以在当前 root 的上游必然存在一个 root = p，返回 right 供父节点继续判断；
-   4. 如果 right 为空且 left 非空：和 3 同理，返回 left。
+   - 如果 left 和 right 都非空：对于当前 root 来说 p 和 q 在异侧子树中，因此 root 就是它们的最近公共祖先，返回 root；
+   - 如果 left 和 right 都空：对于当前 root 来说 p 和 q 都不存在于其子树中，所以返回 null；
+   - 如果 left 为空且 right 非空：对于当前 root 来说 p 和 q 都不存在于其左子树
+     - 若 p 和 q 都存在于右子树，因此 right 就是它们的最近公共祖先，返回 right；
+     - 若 p 和 q 其中一个存在于右子树（不妨假设 q 存在于右子树），由于 left 为空，所以在当前 root 的上游必然存在一个 root = p，返回 right 供父节点继续判断；
+   - 如果 right 为空且 left 非空：和 3 同理，返回 left。
 
 #### 参考
 

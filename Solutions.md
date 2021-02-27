@@ -44,6 +44,7 @@
 | JZ53-II  | [0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ53-II.py) | 简单   |                                                              | 数组、二分查找 |          |
 | JZ54     | [二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ54.py) | 简单   |                                                              | 树             |          |
 | JZ55-I   | [二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ55-I.py) | 简单   |                                                              | 树             | 104      |
+| JZ55-II  | [平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ55-II.py) | 简单   |                                                              | 树             | 110      |
 | JZ58-I   | [翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ58-I.py) | 简单   |                                                              | 字符串         | 151      |
 | JZ59-I   | [滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-I.py) | 简单   |                                                              | 队列           | 239      |
 | JZ59-II  | [队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/JZ/JZ59-II.py) | 中等   |                                                              | 栈             | 155      |
@@ -93,6 +94,7 @@
 | 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/239.py) | 困难 | | 堆 | |
 | 242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/242.py) | 简单 |  |  |  |
 | 290 | [单词规律](https://leetcode-cn.com/problems/word-pattern/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/290.py) | 简单 | | 字符串 | |
+| 300 | [最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/300.py) | 中等 | | 数组、动态规划 | 673、354 |
 | 309 | [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/309.py) | 中等 | | 数组、动态规划 | |
 | 316 | [去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/316.py) | 困难 | note | | 321、402 |
 | 321 | [拼接最大数](https://leetcode-cn.com/problems/create-maximum-number/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/321.py) | 困难 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/321.md) | 栈、贪心算法 | 316、402 |
@@ -100,8 +102,10 @@
 | 328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/328.py) | 中等 |  | 链表 | |
 | 330 | [按要求补齐数组](https://leetcode-cn.com/problems/patching-array/) |  | 困难 | | 贪心算法 | |
 | 349 | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/349.py) | 简单 |  | 数组 | |
+| 354 | [俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/354.py) | 困难 | | 数组、动态规划 | 300、673 |
 | 376 | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/376.py) | 中等 | note |  | |
 | 387 | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/387.py) | 简单 |  | 字符串、字典 | |
+| 395 | [至少有 K 个重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/395.py) | 中等 | | 字符串、递归、滑动窗口 | |
 | 399 | [除法求值](https://leetcode-cn.com/problems/evaluate-division/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/399.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/399.md) | 图、并查集 | |
 | 402 | [移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/402.py) | 中等 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/402.md) | 栈、贪心算法 | 316、321 |
 | 406 | [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/406.py) | 中等 |  | 排序、贪心算法 | |
@@ -125,6 +129,7 @@
 | 644 | [子数组最大平均数 II](https://leetcode-cn.com/problems/maximum-average-subarray-ii/) | ？ | 困难 | | 数组、滑动窗口、二分查找 | 643 |
 | 649 | [Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/649.py) | 中等 |  | 堆、队列 | |
 | 665 | [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/665.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/665.md) | 数组、贪心 | |
+| 673 | [最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/673.py) | 中等 |  | 数组、动态规划 | 300、354 |
 | 674 | [最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/674.py) | 简单 | | 数组 | |
 | 684 | [冗余连接](https://leetcode-cn.com/problems/redundant-connection/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/684.py) | 中等 | | 树、并查集 | |
 | 697 | [数组的度](https://leetcode-cn.com/problems/degree-of-an-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/697s.py) | 简单 | | 哈希表 | |

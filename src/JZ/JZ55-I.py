@@ -5,10 +5,10 @@ import collections
 - 时间复杂度：O(N)。其中 N 为二叉树节点数；最差情况下，需要递归遍历树的所有节点。
 - 空间复杂度：O(N)。最差情况下，递归深度达到 N 。
 """
-# class Solution:
-#     def maxDepth(self, root: TreeNode) -> int:
-#         if not root: return 0
-#         return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+class Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+        if not root: return 0
+        return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
 
 """解法2：层序遍历
 - 时间复杂度：O(N)。其中 N 为二叉树节点数；最差情况下，需要遍历树的所有节点。
