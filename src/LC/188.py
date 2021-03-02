@@ -6,7 +6,7 @@ class Solution:
             return 0
 
         n = len(prices)
-        k = min(k, n // 2)                        # n天最多只能进行n//2笔交易
+        k = min(k, n // 2)                       # n天最多只能进行n//2笔交易
         buy = [[0] * (k + 1) for _ in range(n)]  # buy[i][j]：恰好进行j笔交易，手上持有股票的累计最大收益
         sell = [[0] * (k + 1) for _ in range(n)] # sell[i][j]：恰好进行j笔交易，手上不持有股票的累计最大收益
 
