@@ -21,21 +21,21 @@ class Solution:
             if value > len(nums) / 2:
                 return key
                 
-"""解法3：摩尔投票法(巧妙)
+"""解法3：摩尔投票法(贪心)。如果一个数出现的次数超过一半，那么把它和与它不相同的数一一抵消，最后剩下来的一定是这个数。
 - 时间复杂度：O(n)
 - 空间复杂度：O(1)
 """
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        count = 0
+        cnt = 0
         for num in nums:
-            if count == 0:
-                majority = num
-            if num == majority:
-                count += 1
+            if cnt == 0:
+                x = num
+            if x == num:
+                cnt += 1
             else:
-                count -= 1
-        return majority
+                cnt -= 1
+        return x
 
 """解法4：位运算？
 - 时间复杂度：O()
