@@ -1,6 +1,6 @@
 from typing import List
 
-"""解法：两遍扫描
+"""解法：两遍扫描。用 while 代替 for 来做循环可以处理很多细节
 - 时间复杂度：O(N)
 - 空间复杂度：O(1)
 """
@@ -11,7 +11,7 @@ class Solution:
         """
         # 1.从后向前查找第一个升序对(a[i],a[i+1])
         i = len(nums) - 2
-        while i > 0 and nums[i] <= nums[i+1]:
+        while i >= 0 and nums[i] >= nums[i+1]:
             i -= 1
 
         # 2.若找到，从后向前查找第一个较大数；若未找到，说明已是全降序序列，跳转至步骤3   
@@ -19,7 +19,7 @@ class Solution:
             j = len(nums) - 1
             while j >= 0 and nums[i] >= nums[j]:
                 j -= 1
-                nums[i], nums[j] = nums[j], nums[i]
+            nums[i], nums[j] = nums[j], nums[i]
 
         # 3.使用双指针反转区间[i+1,n)    
         left, right = i+1, len(nums) - 1
