@@ -14,7 +14,7 @@ class MinStack:
 
 
     def pop(self) -> None:
-        if self.A.pop() == self.B[-1]:
+        if self.A.pop() == self.B[-1]: # 注意
             self.B.pop()
 
 

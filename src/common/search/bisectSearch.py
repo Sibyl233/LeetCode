@@ -14,7 +14,7 @@ def bisectSearch(a, x):
 
 def bisectLeft(a, x):
     """Return the index where to insert item x in list a, assuming a is sorted.
-    If x already appears in the list, a.insert(x) will insert just before the leftmost x already there.
+    If x already appears in the list, x will insert just before the leftmost x already there.
     """
     left, right = 0, len(a)
     while left < right:
@@ -25,7 +25,7 @@ def bisectLeft(a, x):
 
 def bisectRight(a, x):
     """Return the index where to insert item x in list a, assuming a is sorted.
-    If x already appears in the list, a.insert(x) will insert just before the rightmost x already there.
+    If x already appears in the list, x will insert just after the rightmost x already there.
     """
     left, right = 0, len(a)
     while left < right:

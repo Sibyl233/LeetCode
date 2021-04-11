@@ -1,29 +1,31 @@
-import queue
+import collections
 class MaxQueue:
 
     def __init__(self):
-        self.deque = queue.deque() #辅助队列
-        self.queue = queue.Queue() #原始队列
+        self.A = collections.deque()
+        self.B = collections.deque()
 
 
     def max_value(self) -> int:
-        return self.deque[0] if self.deque else -1
+        if not self.B:
+            return -1
+        else:
+            return self.B[0]
 
 
     def push_back(self, value: int) -> None:
-        while self.deque and self.deque[-1] < value:
-            self.deque.pop()
-        self.deque.append(value)
-        self.queue.put(value)
-
+        while self.B and value > self.B[-1]:
+            self.B.pop()
+        self.B.append(value)
+        self.A.append(value)
 
     def pop_front(self) -> int:
-        if not self.deque:
+        if not self.A:
             return -1
-        ans = self.queue.get()
-        if ans == self.deque[0]:
-            self.deque.popleft()
-        return ans
+        res = self.A.popleft()
+        if res == self.B[0]:
+            self.B.popleft()
+        return res
 
 
 

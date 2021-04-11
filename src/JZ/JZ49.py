@@ -5,11 +5,11 @@ class Solution:
         for i in range(1,n):
             n2, n3, n5 = dp[a]*2, dp[b]*3, dp[c]*5
             dp[i] = min(n2,n3,n5)
-            if dp[i] == n2:
+            if dp[i] == n2: 
                 a += 1
-            if dp[i] == n3:
+            if dp[i] == n3: # 注意不能用 elif
                 b += 1
-            if dp[i] == n5:
+            if dp[i] == n5: # 注意不能用 elif
                 c += 1
         return dp[-1]
 

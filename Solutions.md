@@ -134,6 +134,7 @@
 | 327 | [区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/327.py) | 困难 | note | 排序 |  |
 | 328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/328.py) | 中等 |  | 链表 | |
 | 330 | [按要求补齐数组](https://leetcode-cn.com/problems/patching-array/) |  | 困难 | | 贪心算法 | |
+| 331 | [验证二叉树的前序序列化](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/328.py) | 中等 | | 栈、树 | |
 | 338 | [比特位计数](https://leetcode-cn.com/problems/counting-bits/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/338.py) | 中等 | | 位运算 | |
 | 349 | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/349.py) | 简单 |  | 数组 | |
 | 354 | [俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/354.py) | 困难 | | 数组、动态规划 | 300、673 |
@@ -207,6 +208,7 @@
 | 1018 | [可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1018.py) | 简单 | | 数组 | |
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1030.py) | 简单 | | 排序 | |
 | 1046 | [最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1046.py) | 简单 | | 堆、贪心算法 | |
+| 1047 | [删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1047.py) | 简单 | | 字符串、栈 | |
 | 1052 | [爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1052.py) | 中等 | | 滑动窗口 | |
 | 1122 | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1122.py) | 简单 | note | 数组、排序 | |
 | 1128 | [等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/) | [python](https://github.com/Sibyl233/LeetCode/blob/master/src/LC/1128.py) | 简单 | [note](https://github.com/Sibyl233/LeetCode/blob/master/note/LC/1128.md) | 数组、计数 | |

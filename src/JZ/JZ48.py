@@ -34,15 +34,19 @@ class Solution(object):
 - 时间复杂度：O(N)
 - 空间复杂度：O(1)
 """
-# class Solution:
-#     def lengthOfLongestSubstring(self, s: str) -> int:
-#         dic, head, res = {}, 0, 0
-#         for tail in range(len(s)):
-#             if s[tail] in dic:
-#                 head = max(dic[s[tail]], head)
-#             dic[s[tail]] = tail + 1
-#             res = max(res, tail - head + 1)
-#         return res
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        left,right = 0,0
+        n = len(s)
+        dic = {}
+        res = 0
+        while right < n:
+            if s[right] in dic:
+                left = max(dic[s[right]]+1, left)
+            dic[s[right]] = right
+            res = max(res,right-left+1)
+            right += 1
+        return res
 
 if __name__ == "__main__":
     s = "abcabcbb"

@@ -19,7 +19,7 @@ class Solution:
     
     def digitSum(self, num):
         ans = 0
-        while num:
+        while num!=0:
             ans += num % 10
             num //= 10
         return ans
@@ -41,7 +41,7 @@ class Solution:
     
     def digitSum(self, num):
         ans = 0
-        while num:
+        while num!=0:
             ans += num % 10
             num //= 10
         return ans
