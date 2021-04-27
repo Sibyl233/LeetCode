@@ -94,7 +94,7 @@ def _qsort(nums, left, right):
             i += 1
         if i == j: break
         nums[i], nums[j] = nums[j], nums[i]
-    # 固定 pivot 位置
+    # 固定 pivot 位置。此时 i,j 指向同一元素。
     if nums[i] > pivot:
         i -= 1
     nums[left], nums[i] = nums[i], nums[left]
@@ -167,9 +167,8 @@ def radixSort(nums):
     return nums
 
 
-
-import numpy as np
 if __name__ == '__main__':
+    import numpy as np
     a = list(np.random.randint(20,size=20))
     print(a)
     # print(bubbleSort(a))
