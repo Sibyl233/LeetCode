@@ -26,7 +26,8 @@ class UnionFind:
     def connected(self, x: int, y: int) -> bool:
         x, y = self.find(x), self.find(y)
         return x == y
-    
+
+
 # n = int(input())
 # edges = []
 # nameToIdx = {}
