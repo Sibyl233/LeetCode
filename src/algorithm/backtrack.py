@@ -104,10 +104,10 @@ def subset(nums):
     def helper(path, idx):
         if path not in res:
             res.append(path)
-            #return 注意这里不需要返回
+            # return 注意这里不需要返回
         for i in range(idx,n):
             helper(path+[nums[i]], i+1)
-    
+  
     res = []
     helper([],0)
     return res

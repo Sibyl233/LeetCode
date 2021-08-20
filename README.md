@@ -18,15 +18,15 @@
 
 #### 算法
 
-- [ ] 排序算法： [code] [note] [[十大经典排序算法](https://leetcode-cn.com/problems/sort-an-array/solution/python-shi-xian-de-shi-da-jing-dian-pai-xu-suan-fa/)]
-- [ ] 搜索算法：回溯、递归、剪枝技巧
+- [ ] 排序算法 [ code | note | [十大经典排序算法](https://leetcode-cn.com/problems/sort-an-array/solution/python-shi-xian-de-shi-da-jing-dian-pai-xu-suan-fa/) ]
+- [ ] 搜索算法：回溯、递归、剪枝技巧 [ code ]
 - [ ] 图论：最短路、最小生成树、网络流建模
-- [ ] 动态规划：背包问题、最长子序列、计数问题
+- [ ] 动态规划：背包问题、最长子序列、计数问题 
 - [ ] 基础技巧：分治、倍增、二分、贪心
 
 #### 其它 
 
-- [ ] 时间复杂度和空间复杂度 [[复杂度速查表](https://liam.page/2016/06/20/big-O-cheat-sheet/)]
+- [ ] 时间复杂度和空间复杂度 [ note | [复杂度速查表](https://liam.page/2016/06/20/big-O-cheat-sheet/) ]
 - [ ] 代码的规范性、完整性和鲁棒性
 
 #### 参考
